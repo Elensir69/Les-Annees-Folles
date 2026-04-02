@@ -6,6 +6,62 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Russian Irkutsk",
+		"leaderName": "Nikolai Muravyov",
+		"adjective": ["Russian Irkutsk"],
+		"startBias": ["Lakes","Snow"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [207, 209, 232],
+		"innerColor": [32, 57, 87],
+        "favoredReligion": "Orthodox",
+		"uniqueName": "Baikal Seal Hunting",
+		"uniques": ["North Asian",
+		"[+2 Food, +2 Gold] from every [Seals]","[+1 Faith, +1 Production] from [Fishing Boats] tiles [in all cities]",
+		"[+2 Food, +2 Production] from [Lakes] tiles [in all cities]"],
+		"cities": ["Irkutsk","Angarsk","Bratsk","Usolye-Sibirskoye","Cheremkhovo","Tulun","Shelekhov","Sayansk","Zima","Nizhneudinsk","Bodaybo","Kuytun","Tayshet","Ust-Ilimsk","Ust-Kut","Slyudyanka","Baikalsk","Kachug","Kirensk","Zhigalovo"]
+	},
+{
+		"name": "Russian Yakutsk",
+		"leaderName": "Ivan Shubin",
+		"adjective": ["Russian Yakutsk"],
+		"startBias": ["Tundra","Snow"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [207, 209, 232],
+		"innerColor": [32, 57, 87],
+        "favoredReligion": "Orthodox",
+		"uniqueName": "The Yasak Tribute",
+		"uniques": ["North Asian",
+		"[-10]% Gold cost of acquiring tiles [in all cities]","[Great Artist] is earned [+25]% faster",
+		"[+2 Food, +2 Production] from [Snow] tiles [in all cities]","[+1 Food, +2 Production] from [Tundra] tiles [in all cities]"],
+		"cities": ["Yakutsk", "Olyokminsk" ,"Vilyuysk", "Verkhoyansk", "Srednekolymsk", "Amga", "Ust-Yansk", "Bulun", "Namtsy", "Churapcha"]
+	},
+{
 		"name": "The Kanak",
 		"leaderName": "Ataï",
 		"adjective": ["The Kanak"],
@@ -2784,7 +2840,7 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [158, 11, 11],
 		"uniqueName": "Eternal Commonwealth",
-		"uniques": ["Balkan",
+		"uniques": ["Slavic",
 		"[+20]% Production when constructing [Light Cavalry] units [in all cities]","[+1 Gold] from every [Mill]","[+1 Gold] from every [Geese]"],
 		"cities": ["Warsaw","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
@@ -2955,7 +3011,7 @@
 		"outerColor": [26, 26, 26],
 		"innerColor": [181, 167, 167],
 		"uniqueName": "Lion’s Roar",
-		"uniques": ["Balkan",
+		"uniques": ["Slavic",
 		"May buy [Culture] buildings with [Faith] [in all cities]",
 		"May buy [Food] buildings with [Faith] [in all cities]",
 		"May buy [Gold] buildings with [Faith] [in all cities]",
@@ -3311,7 +3367,7 @@
 		"innerColor": [32, 57, 87],
         "favoredReligion": "Orthodox",
 		"uniqueName": "Frontier of Empire",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Slavic",
 		"[+1 Gold] from every [Strategic resource]","[+44]% Production when constructing [Walls] buildings [in all cities]","[+44]% Production when constructing [Castle] buildings [in all cities]"],
 		"cities": ["Kyiv", "Kharkiv" ,"Odesa", "Dnipro", "Donetsk", "Lviv", "Zaporizhizhia", "Kryvyi Rih", "Mykolaiv", "Sevastopol", "Mariupol", "Luhansk", "Vinnytsia", "Makiivka"],
 	},
@@ -3448,8 +3504,8 @@
 		"outerColor": [235, 64, 52],
 		"innerColor": [255, 243, 207],
 		"uniqueName": "Principality of Serbia",
-		"uniques": ["Balkan",
-		"[+3 Culture] from every [Great Improvement]","[+2 Culture] from every [Campus]"],
+		"uniques": ["Slavic","[+25]% Strength <for [Opolchenie] units>",
+		"[+1 Culture, +2 Production] from every [Veche]","[+1 Culture, +2 Production] from every [Grove]"],
 		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
 			"Pec","Prizren","Mitrovica","Morava","Sabac","Cacak","Nis","Pirot","Smederevo","Jagodna",
 			"Vranje","Krusevac","Beograd","Rudo Polje","Dmitrovica","Prokuplje","Vucitrn","Debrc","Skopje",
@@ -4115,7 +4171,7 @@
 		"innerColor": [32, 57, 87],
 		"favoredReligion": "Orthodox",
 		"uniqueName": "Military Horde",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Slavic",
 		"[+30]% Production when constructing [All] units [in all cities]",
 	    "[1] free [Cossack] units appear <upon discovering [Military Science] technology>"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",

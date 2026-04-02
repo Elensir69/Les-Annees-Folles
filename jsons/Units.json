@@ -1,5 +1,42 @@
 [
 	{
+		"name": "Cossack Frontier Guard",
+        "uniqueTo": "Russian Irkutsk",
+        "replaces": "Hussar",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Military Science",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 20,
+		"cost": 60, 
+        "uniques": ["[+50]% Strength <vs [Barbarian] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+	{
+		"name": "Promyshlenniki",
+		"uniqueTo": "Russian Yakutsk",
+        "replaces": "Explorer",
+        "upgradesTo": "Mounted Explorer",
+        "obsoleteTech": "Railway",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 9,
+		"cost": 60,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Opolchenie",
+        "requiredTech": "Agrarian Communes",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 12,
+		"uniques":["[+20]% XP gained from combat","[+20]% Strength <when stacked with a [Worker] unit>","[This Unit] heals [+3] HP <upon defeating a [All] unit>","[This Unit] heals [+3] HP <upon ending a turn in a [Foreign Land] tile>",
+			"[+15]% Strength <when fighting in [Pines] tiles>","[+15]% Strength <when fighting in [Tundra] tiles>","[+15]% Strength <when fighting in [Hill] tiles>","[+15]% Strength <when fighting in [Friendly] tiles>","[+15]% Strength <when defending>"],
+		"cost": 60,
+		"attackSound": "shot"
+        },
+	{
 		"name": "Kawi Clubman",
 		"uniqueTo":"The Kanak",
 		"replaces":"Partisan",

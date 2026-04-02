@@ -7,6 +7,11 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Slavic Culture",
+				"row": 11,
+				"uniques":["Only available <for [Slavic] Civilizations>"]
+			},
+			{
 				"name": "Settlement",
 				"row": 6,
 				"quote": "The Victorian era was a time of art and culture
@@ -38,6 +43,11 @@
 				"name": "Saw",
 				"row": 6,
 				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Agrarian Communes",
+				"row": 11,
+				"prerequisites": ["Slavic Culture"],
 			},
 			{
 				"name": "Mining",

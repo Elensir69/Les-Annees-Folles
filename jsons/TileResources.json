@@ -169,7 +169,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra","Cold Soil","Pampas Grassland"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Snow","Cold Soil","Pampas Grassland"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"production": 1},

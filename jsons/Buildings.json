@@ -1,5 +1,93 @@
 [
 	{
+        "name": "Reindeer Corral",
+        "cost": 100,
+		"requiredNearbyImprovedResources":["Deer"],
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [North Asian] Civilizations>","[+1 Food] per [3] population [in all cities]"]
+    },
+	{
+        "name": "Fish Drying House",
+        "cost": 100,
+		"requiredNearbyImprovedResources":["Fish"],
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [North Asian] Civilizations>","[+1 Food] per [3] population [in all cities]"]
+    },
+	{
+		"name": "Orda Hall",
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		"[+1 Faith] per [4] population [in all cities]","[+1 Culture] per [4] population [in all cities]","[+10]% Production when constructing [Archaic Infantry] units [in this city]",
+			"Only available <for [North Asian] Civilizations>"]
+	},
+	{
+		"name": "Baikal Settlement",
+		"uniqueTo":"Russian Irkutsk",
+		"replaces":"Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"food":2,
+		"production":1,
+		"requiredTech": "Anesthesia",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+        "name": "Ostrog Prison",
+		"uniqueTo":"Russian Yakutsk",
+		"replaces":"Constabulary",
+        "cost": 160,
+        "science": 2,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Gas Lighting"
+    },
+	{
+        "name": "Fortified Monastery",
+        "cost": 100,
+		"maintenance": 3,
+		"faith": 2,
+		"cityStrength": 3,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [Slavic] Civilizations>","[+1 Faith] per [7] population [in all cities]"],
+        "requiredTech": "Agrarian Communes"
+    },
+	{
+        "name": "Veche",
+        "cost": 100,
+		"maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [Slavic] Civilizations>",
+		"[+1 Food, +1 Production] from [City center] tiles [in this city]"],
+        "requiredTech": "Agrarian Communes"
+    },
+	{
+        "name": "Grove",
+        "cost": 100,
+		"maintenance": 2,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [Slavic] Civilizations>",
+		"[+1 Food, +1 Production] from [Pines] tiles [in this city]"],
+        "requiredTech": "Agrarian Communes"
+    },
+	{
+        "name": "Posad",
+        "cost": 100,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [Slavic] Civilizations>",
+		"[+1 Gold] per [4] population [in this city]"],
+        "requiredTech": "Agrarian Communes"
+    },
+	{
+        "name": "Bath",
+        "cost": 100,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <for [Slavic] Civilizations>",
+		"[+1 Culture] per [6] population [in this city]","[+1 Happiness] per [6] population [in this city]"],
+        "requiredTech": "Slavic Culture"
+    },
+	{
         "name": "Mwamwa",
 		"uniqueTo":"The Kanak",
 		"replaces":"Constabulary",
