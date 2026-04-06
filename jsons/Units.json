@@ -1,5 +1,28 @@
 [
 	{
+		"name": "Elephant Lancer",
+        "requiredTech": "Treaty Ports",
+		"obsoleteTech": "Artillery",
+		"unitType": "Elephant",
+		"movement": 2,
+		"strength": 13,
+		"uniques":["[+50]% Strength <after discovering [Military Science]>","[+15]% Strength <vs [Heavy Cavalry] units>","[+15]% Strength <vs [Wounded] units>"],
+		"cost": 90,
+		"attackSound": "elephant"
+        },
+	{
+		"name": "Warrior Monk",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Printing of Sutras",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 11,
+		"uniques":["Can be purchased with [Faith] [in all cities]","Can Spread Religion <for [2] movement> <[2] times> <after which this unit is consumed>","Unbuildable"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
 		"name": "Cossack Frontier Guard",
         "uniqueTo": "Russian Irkutsk",
         "replaces": "Hussar",
@@ -81,7 +104,7 @@
         },
 	{
 		"name": "Garde Civique",
-		"uniqueTo":"Luxemburg",
+		"uniqueTo":"Luxembourg",
 		"replaces":"Explorer",
 		"unitType": "Infantry",
 		"movement": 3,
@@ -1406,9 +1429,18 @@
 		"movement": 2
 	},
 	{
+		"name": "Envoy",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"requiredTech": "Printing of Sutras",
+		"movement": 3
+	},
+	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Unavailable <for [East Asian] Civilizations> <hidden from users>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -2783,7 +2815,20 @@
 		"strength": 20,
 		"rangedStrength": 28,
 		"cost": 185,
+		"uniques":["Unavailable <for [East Asian] Civilizations> <hidden from users>"],
 		"requiredTech": "Industrialization",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Junk",
+		"unitType": "Ranged Water",
+        "obsoleteTech": "Steam Power",
+		"movement": 5,
+		"strength": 23,
+		"rangedStrength": 28,
+		"cost": 175,
+		"requiredTech": "East Asian Ships",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -3558,7 +3603,7 @@
 			"strength": 28,
 			"cost": 88, 
 					"uniques": ["[-30]% Strength <vs [Archaic Infantry] units>","[+22]% Strength <vs [Heavy Cavalry] units>","[+22]% Strength <vs [Light Cavalry] units>","[+22]% Strength <vs [Camel] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-			"attackSound": "horse"
+			"attackSound": "elephant"
 			},
         {
 		"name": "Bushranger",

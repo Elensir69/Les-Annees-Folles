@@ -12,6 +12,18 @@
 				"uniques":["Only available <for [Slavic] Civilizations>"]
 			},
 			{
+				"name": "Printing of Sutras",
+				"row": 12,
+				"uniques":["Only available <for [East Asian] Civilizations>"]
+			},
+			{
+				"name": "Treaty Ports",
+				"row": 13,
+				"uniques":["[+35]% Yield from every [Industrial Dock]","[+35]% Yield from every [Harbor]",
+					"[+1 Gold] from [City center] tiles [in capital]","Gifts of Gold to City-States generate [+10]% more Influence",
+					"Only available <for [Indochinese] Civilizations>"]
+			},
+			{
 				"name": "Settlement",
 				"row": 6,
 				"quote": "The Victorian era was a time of art and culture
@@ -82,6 +94,11 @@
 				"name": "Industrialization",
 				"row": 4,
 				"prerequisites": ["Saw", "Mining"],
+			},
+			{
+				"name": "East Asian Ships",
+				"row": 12,
+				"prerequisites": ["Printing of Sutras"],
 			},
 			{
 				"name": "Telegraph",

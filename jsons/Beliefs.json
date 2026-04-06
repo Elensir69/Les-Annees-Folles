@@ -305,11 +305,6 @@
         "uniques": ["May buy [Nemeton] buildings for [150] [Faith] [in cities following this religion]"]
     },
     {
-        "name": "Pagoda",
-        "type": "Enhancer",
-        "uniques": ["May buy [Pagoda] buildings for [150] [Faith] [in cities following this religion]"]
-    },
-    {
         "name": "Synagogue",
         "type": "Enhancer",
         "uniques": ["May buy [Synagogue] buildings for [150] [Faith] [in cities following this religion]"]
