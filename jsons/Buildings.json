@@ -1,5 +1,43 @@
 [
 	{
+		"name": "Whaling Industry",
+		"uniqueTo":"The Falklands",
+		"replaces":"Whaling Station",
+		"requiredNearbyImprovedResources":["Humpback Whale"],
+		"cost": 85,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","[+5]% [Gold] [in this city]","[+4 Gold] from [Humpback Whale] tiles [in this city]" ],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Whaling Station",
+		"requiredNearbyImprovedResources":["Humpback Whale"],
+		"cost": 85,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]","[+2 Gold] from [Humpback Whale] tiles [in this city]" ],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Persianate Madrasa",
+		"uniqueTo":"Tajik Principalities",
+		"replaces":"Temple",
+		"faith": 5,
+		"science": 2,
+        "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Unavailable <for [Javanese] Civilizations> <hidden from users>","Destroyed when the city is captured"]
+	},
+	{
+        "name": "Tjukurpa Circle",
+		"uniqueTo": "Wati",
+        "cost": 100,
+		"faith":2,
+        "hurryCostModifier": 10,
+        "uniques": ["[+1 Culture] per [3] population [in this city]","[+5 Culture] per [8] population [in this city]"]
+    },
+	{
         "name": "Statue of Buddha",
         "cost": 100,
         "hurryCostModifier": 10,
@@ -3484,6 +3522,7 @@
 		"cost": 220,
 		"production": 2,
 		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources":["Nitter"],
 		"uniques": ["New [Artillery] units start with [10] XP [in this city]","[+15]% Production when constructing [Artillery] units [in this city]"],
 		"requiredTech": "Industrialization"
 	},

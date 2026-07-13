@@ -6,6 +6,90 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "The Falklands",
+	"leaderName": "Richard Moody",
+	"adjective": ["VermoThe Falklandsnt"],
+	"startBias":["Grassland"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [10, 18, 79],
+    "innerColor": [230, 240, 247],
+	"uniqueName": "South Atlantic Outpost",
+	"uniques": ["Anglo",
+	"[-5]% Strength <for [Land] units>","[+10]% Strength <for [Water] units>","[+25]% Production when constructing [Water] units [in all cities]",
+	"[+1 Gold] from [Sheep] tiles [in all cities]","[+1 Gold] from [Humpback Whale] tiles [in all cities]"],
+	"cities": ["Port Stanley","Darwin","Fox Bay","San Carlos","Port Howard","Goose Green","New Island","Carcass Island","Pebble Island","Bleaker Island"],
+	"spyNames": ["Saki"]
+},
+{
+		"name": "Wati",
+		"leaderName": "Tjilpi",
+		"adjective": ["Wati"],
+		"startBias": ["Desert","Forest"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [18, 16, 15],
+		"innerColor": [232, 108, 37],
+        "favoredReligion": "Shamanism",
+		"uniqueName": "Dreaming Paths",
+		"uniques": ["Australian",
+		"[+25]% Strength <when fighting in [Desert] tiles>","[+25]% Strength <when fighting in [Forest] tiles>",
+		"[+1 Culture] from [Forest] tiles [in all cities]","[+1 Culture] from [Desert] tiles [in all cities]",
+		"No Maintenance costs for improvements in [Desert] tiles","No Maintenance costs for improvements in [Forest] tiles"],
+		"cities": ["Uluru","Kata Tjuta","Alice Springs","Mutitjulu","Yulara","Docker River","Warburton","Papunya","Hermannsburg","Tennant Creek","Yuendumu","Kintore","Areyonga","Haasts Bluff","Mount Liebig"]
+	},
+{
+		"name": "Tajik Principalities",
+		"leaderName": "Mir of Darvaz",
+		"adjective": ["Tajik Principalities"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [171, 195, 209],
+		"innerColor": [36, 40, 43],
+        "favoredReligion": "Shamanism",
+		"uniqueName": "Roof of the World",
+		"uniques": ["Central Asian","[+10]% Strength <for [Khan] units>",
+		"[Gold] cost of purchasing [Faith] buildings [-50]%","Improves movement speed on roads","Roads connect tiles across rivers","No Maintenance costs for improvements in [Hill] tiles"
+		,"[-50]% maintenance cost for [Faith] buildings [in all cities]","[+1 Faith] from every [Great Improvement]","Land units may cross [Mountain] tiles after the first [Great Prophet] is earned"],
+		"cities": ["Darvaz","Karategin","Kulyab","Khujand","Panjakent","Ishkashim","Murghab","Garm","Kulob","Vanj","Rushan","Khorog","Faizabad","Shahrinav","Obigarm"]
+	},
+{
 		"name": "Russian Irkutsk",
 		"leaderName": "Nikolai Muravyov",
 		"adjective": ["Russian Irkutsk"],
@@ -1128,7 +1212,7 @@
 	"outerColor": [1, 40, 66],
 	"innerColor": [179, 245, 229],
 	"uniqueName": "Steppe Pastoralists",
-	"uniques": ["ME","Free [Naiza Rider] appears <upon discovering [Military Science] technology>","[+10]% Strength <when fighting in [Hill] tiles>","[+20]% Production when constructing [Heavy Cavalry] units [in capital]","[+10]% Production when constructing [Archaic Infantry] units [in capital]","[+1] Sight"],
+	"uniques": ["ME","Central Asian","Free [Naiza Rider] appears <upon discovering [Military Science] technology>","[+10]% Strength <when fighting in [Hill] tiles>","[+20]% Production when constructing [Heavy Cavalry] units [in capital]","[+10]% Production when constructing [Archaic Infantry] units [in capital]","[+1] Sight"],
 	"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
 },
 {
@@ -1225,7 +1309,7 @@
 	"outerColor": [92, 96, 214],
 	"innerColor": [255, 255, 255],
 	"uniqueName": "Mormonism",
-	"uniques": ["Non Middle Eastern",
+	"uniques": ["Anglo",
 	"[Gold] cost of purchasing [Slave] units [+150]%","[Gold] cost of purchasing [Gardener] units [-20]%","[+1 Gold, +2 Food] from [Forest] tiles [in all cities]","[+1 Gold, +1 Food] from [Heavy Labor Plantation] tiles [in all cities]"],
 	"cities": ["Castleton",
 "Burlington",
@@ -1750,7 +1834,7 @@
 		"innerColor": [44, 78, 133],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Elevated by the Many",
-		"uniques": ["East Asian",
+		"uniques": ["Central Asian",
 		"When defeating a [{Barbarian} {Land}] unit, earn [60] Gold and recruit it <with [100]% chance>"],
 		"cities": ["Niislel Khüree", "Burga", "Tsetserleg", "Tsagaan Baishin", "Uliastai", "Khovd", "Manjusri", "Kharkorin", "Bayan Tümen", "Choibalsan", "Ölgii", "Ulaangom", "Arvaikheer", "Bayankhongor", "Öndörkhaan", "Zuunmod", "Zamyn-Üüd", "Mörön", "Gandan", "Khatgal", "Choir", "Hailar", "Erdene Zuu"],
         "spyNames": ["Saki"]
@@ -1889,7 +1973,7 @@
 		"innerColor": [247, 246, 181],
                 "favoredReligion": "Islam",
 		"uniqueName": "The Sinless Emir",
-		"uniques": ["ME","[+25]% [Faith] [in all cities]",
+		"uniques": ["ME","Central Asian","[+25]% [Faith] [in all cities]",
 		"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost","Gain a free [Namazgah] [in all cities] <upon conquering a city>"],
 		"cities": ["Bukhara", "Samarkand", "Qarshi", "Balkh", "Shakhrisabz", "Chardjuy", "Hisor", "G'uzor", "Kattakurgan", "Sheberghan", "Khujand", "Jizzakh", "Maimana", "Chirakchi", "Denau", "Kulab", "Nurota", "Termez", "Kurganteppa", "Karakul", "Kermine", "Vobkent", "Uroteppa"],
 	},
@@ -2019,7 +2103,7 @@
                 "favoredReligion": "Manaism",
 		"uniqueName": "Ava Ceremony",
 		"uniques": ["Polynesian",
-		"[-20]% Food consumption by specialists [in all cities]","[-25]% Culture cost of adopting new Policies"],
+		"[-20]% Food consumption by [Specialists] [in all cities]","[-25]% Culture cost of adopting new Policies"],
 		"cities": ["Apia",
 "Salelologa",
 "Afega",
@@ -2188,7 +2272,7 @@
 		"innerColor": [74, 23, 18],
         "favoredReligion": "Catholic",
 		"uniqueName": "Dutch´s Slave Trade",
-		"uniques": ["West African","[+15]% [Gold] [in all cities]","[+50]% Yield from every [Monument]","[+50]% Yield from every [House]","[+50]% Yield from every [Palace]","[+50]% Yield from every [Temple]"],
+		"uniques": ["West African","[+15]% [Gold] [in all cities]","[+20]% Yield from every [Monument]","[+10]% Yield from every [House]","[+50]% Yield from every [Palace]","[+20]% Yield from every [Temple]"],
 		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"]
 	},
 {
@@ -2711,9 +2795,9 @@
 			"Ban Phai","Loci","Khon Kaen","Surin"],
 	},
 {
-		"name": "V.O.C",
-		"leaderName": "Jan Pieterszoon Coen",
-		"adjective": ["V.O.C"],
+		"name": "Dutch East Indies",
+		"leaderName": "Van der Capellen",
+		"adjective": ["Dutch East Indies"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -3794,7 +3878,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["ME",
 		"[+45]% Strength <for [Artillery] units>","When defeating a [Barbarian] unit, earn [33] Gold and recruit it <with [40]% chance>"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
@@ -3828,12 +3912,7 @@
 		"uniques": ["Anglo",
 		"[+25]% [Production] from every [House]","[+15]% [Production] from every [Mill]","[-2]% [Happiness] from every [Slave Labor Plantation]","[Gold] cost of purchasing [Slave] units [+900]%",
 	"[+10]% [Science] [in all cities]","[+10]% [Gold] [in all cities]"], 
-		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+		"cities": ["Washington D.C.","New York","Philadelphia","Boston","Baltimore","Chicago","Cincinnati","Cleveland","Detroit","Buffalo","Pittsburgh","St. Louis","Milwaukee","Providence","Hartford","Albany","Springfield","Indianapolis","Columbus","Louisville"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	
@@ -4300,9 +4379,9 @@
     },
     {
 		"name": "Argentina",
-		"leaderName": "Justo José de Urquiza",
+		"leaderName": "Bartolomé Mitre",
 		"adjective": ["Argentinian"],
-		"startBias":["Plains"],
+		"startBias":["Coast","Grassland","Marsh"],
 		"preferredVictoryType": "Supremacy",
 
 
@@ -4319,9 +4398,9 @@
 		"outerColor": [0, 187, 250],
 		"innerColor": [64, 11, 11],
 		"favoredReligion": "Catholic",
-		"uniqueName": "Mueran los Enemigos de la Organizacion Nacional",
-		"uniques": ["LA",
-		"[+2 Culture] from every [Mill]", "[+50]% Strength <vs [Barbarian] units>"],
+		"uniqueName": "The American Paris",
+		"uniques": ["LA", "[+2 Science] from every [Academy]",
+		"[+1 Gold, +1 Production] from every [Ranch]","[+1 Gold, +1 Production] from every [Hunter Lodge]","[+10]% Strength <vs [Barbarian] units>"],
 		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
                             "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
                             "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
@@ -4329,7 +4408,7 @@
     },
     {
 		"name": "Argentinian Confederation",
-		"leaderName": "Juan Manuel de Rosas",
+		"leaderName": "Felipe Varela",
 		"adjective": ["Argentinian"],
 		"startBias":["Plains"],
 		"preferredVictoryType": "Supremacy",
@@ -4348,9 +4427,9 @@
 		"outerColor": [255, 3, 3],
 		"innerColor": [29, 36, 48],
 		"favoredReligion": "Catholic",
-		"uniqueName": "Mueran los Salvajes Unitarios",
+		"uniqueName": "The Last Great Federalist Caudillo",
 		"uniques": ["LA",
-		"[+1 Production] from every [Mill]", "[+1 Production] from every [Stable]", "[+2 Food] from every [Slave Labor Plantation]"],
+		"[+25]% [Gold] from Trade Routes","[+100]% [Gold] from City-States","No Maintenance costs for improvements in [Plains] tiles","[-10]% Culture cost of adopting new Policies"],
 		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
                             "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
                             "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
@@ -4380,7 +4459,7 @@
 		"favoredReligion": "Animism",
 		"uniqueName": "Frontier Cavalry",
 		"uniques": ["LA",
-		"[+20]% Production when constructing [Heavy Cavalry] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [Mill]"],
+		"[+20]% Production when constructing [Heavy Cavalry] units [in all cities]","[+150]% Yield from every [Nitter]"],
 		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"]
         "spyNames": ["Saki"]
     },

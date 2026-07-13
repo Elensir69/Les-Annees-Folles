@@ -96,19 +96,22 @@
 		"food": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
+		"uniques": ["Not shown on world screen <without [Camel]>","Generated on every [20] tiles <in [Desert] tiles>"]
 	},
 
 	{
 		"name": "National Choice",
+		"uniques":["Not shown on world screen <without [National Choice]>"],
 		"resourceType": "Strategic"
 	},
 	{
 		"name": "Manpower",
+		"uniques":["Not shown on world screen <without [Manpower]>"],
 		"resourceType": "Strategic"
 	},
 	{
 		"name": "Armament",
+		"uniques":["Not shown on world screen <without [Armament]>"],
 		"resourceType": "Strategic"
 	},
         {
