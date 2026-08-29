@@ -1,13 +1,43 @@
 {
     "name": "Global uniques",
     "uniques": [
+        ///// Foreign and Local Influence
+        "[+5]% [Food] [in all cities] <when above [2] [Local Influence]>","[+5]% [Production] [in all cities] <when above [2] [Local Influence]>",
+        "[+8]% [Food] [in all cities] <when above [5] [Local Influence]>","[+8]% [Production] [in all cities] <when above [5] [Local Influence]>",
+        "[+11]% [Food] [in all cities] <when above [8] [Local Influence]>","[+11]% [Production] [in all cities] <when above [8] [Local Influence]>",
+        "[+25]% [Food] [in all cities] <when above [12] [Local Influence]>","[+25]% [Production] [in all cities] <when above [12] [Local Influence]>",
+        "[+2 Food, +2 Production] per [3] population [in capital] <when above [5] [Local Influence]>",
+        "[+2 Production] from all [Early Factory] buildings <when above [2] [Local Influence]>",
+        "[+2 Production] from all [Forge] buildings <when above [4] [Local Influence]>",
+        "[-50]% maintenance cost for [Culture] buildings [in all cities] <when above [8] [Local Influence]>",
+        "[+1 Food, +1 Production] from [Mill] tiles [in all cities] <when above [5] [Local Influence]>",
+        "[+3 Food, +3 Production] from [Mill] tiles [in all cities] <when above [10] [Local Influence]>",
+
+
+        "[+5]% [Gold] [in all cities] <when above [2] [Foreign Influence]>","[+3]% [Science] [in all cities] <when above [2] [Foreign Influence]>",
+        "[+8]% [Gold] [in all cities] <when above [5] [Foreign Influence]>","[+5]% [Science] [in all cities] <when above [5] [Foreign Influence]>",
+        "[+11]% [Gold] [in all cities] <when above [8] [Foreign Influence]>","[+8]% [Science] [in all cities] <when above [8] [Foreign Influence]>",
+        "[+25]% [Gold] [in all cities] <when above [12] [Foreign Influence]>","[+11]% [Science] [in all cities] <when above [12] [Foreign Influence]>",
+        "[+2 Gold, +1 Science] per [3] population [in capital] <when above [5] [Foreign Influence]>",
+        "Military Units gifted from City-States start with [10] XP <when above [2] [Foreign Influence]>",
+        "Military Units gifted from City-States start with [20] XP <when above [5] [Foreign Influence]>",
+        "Military Units gifted from City-States start with [20] XP <when above [12] [Foreign Influence]>",
+        "Militaristic City-States grant units [3] times as fast when you are at war with a common nation <when above [5] [Foreign Influence]>",
+        "Gifts of Gold to City-States generate [+20]% more Influence <when above [5] [Foreign Influence]>",
+        "Gifts of Gold to City-States generate [+50]% more Influence <when above [8] [Foreign Influence]>",
+        "City-State territory always counts as friendly territory <when above [5] [Foreign Influence]>",
+        "Allied City-States provide [Gold] equal to [+20]% of what they produce for themselves <when above [5] [Foreign Influence]>",
+        "Allied City-States provide [Gold] equal to [+40]% of what they produce for themselves <when above [10] [Foreign Influence]>",
+        "Allied City-States provide [Gold] equal to [+80]% of what they produce for themselves <when above [25] [Foreign Influence]>",
+        "Allied City-States provide [Gold] equal to [+160]% of what they produce for themselves <when above [30] [Foreign Influence]>",
+        "Allied City-States provide [Science] equal to [+10]% of what they produce for themselves <when above [5] [Foreign Influence]>",
+        "Allied City-States provide [Science] equal to [+30]% of what they produce for themselves <when above [10] [Foreign Influence]>",
+        "Allied City-States provide [Science] equal to [+50]% of what they produce for themselves <when above [25] [Foreign Influence]>",
+        "Allied City-States provide [Science] equal to [+100]% of what they produce for themselves <when above [30] [Foreign Influence]>",
         ///// Event stuff
         "Triggers a [World War II Begins] event <upon entering the [Second World War]>",
         "Triggers a [The Great War Begins] event <upon entering the [First World War]>",
         "Triggers a [The New Art of War] event <upon discovering [Military Science] technology>",
-        "Triggers a [The Machine Age Dawns] event <upon discovering [Industrialization] technology>",
-        "Triggers a [Illuminating the Streets] event <upon discovering [Gas Lighting] technology>",
-        "Triggers a [The Rise of the Hunting Clubs] event <upon discovering [Hunting Pets] technology>",
 
         ///// Cultural stuff
         "[+5]% [Culture] [in all cities] <when above [1] [Literary Work]>",

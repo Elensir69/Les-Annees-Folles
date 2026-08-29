@@ -11,6 +11,12 @@
 			  "uniques": [	"[+55]% Production when constructing [Production] buildings [in all cities] <for [10] turns>",
                             "[+55]% Production when constructing [Food] buildings [in all cities] <for [10] turns>",
                             "[+55]% Production when constructing [Gold] buildings [in all cities] <for [10] turns>",]}
+
+				{ "text": "Launch the Cultural-Economic Initiative",
+      "uniques": [
+        "Instantly provides [2] [Foreign Influence]","Instantly provides [2] [Local Influence]","Instantly provides [1] [Corruption] <with [50]% chance>"
+      ]
+    }
       
       			{ "text": "Sell goods to the major powers",
 			  "uniques": [	"[+6 Gold] [in all cities] <for [10] turns>"] }
@@ -29,6 +35,12 @@
       
       			{ "text": "Sell goods to the major powers",
 			  "uniques": [	"[+4 Gold] [in all cities] <for [10] turns>"] }
+			  
+			  { "text": "Launch the Cultural-Economic Initiative",
+      "uniques": [
+        "Instantly provides [2] [Foreign Influence]","Instantly provides [2] [Local Influence]","Instantly provides [1] [Corruption] <with [50]% chance>"
+      ]
+    }
       
      			{ "text": "Produce national propaganda",
 			  "uniques": [ 	
@@ -44,6 +56,12 @@
       			{ "text": "Invest in Cavalry & Tradition",
 			  "uniques": [	"[+25]% Strength <for [Heavy Cavalry] units> <for [10] turns>",
 							"[+25]% Strength <for [Light Cavalry] units> <for [10] turns>"] }
+
+			    { "text": "Launch the Cultural-Economic Initiative",
+      "uniques": [
+        "Instantly provides [2] [Foreign Influence]","Instantly provides [2] [Local Influence]","Instantly provides [1] [Corruption] <with [50]% chance>"
+      ]
+    }
       
      			{ "text": "Expand Officer Academies",
 			  "uniques": [ 	
@@ -51,52 +69,5 @@
 				{ "text": "Resist Militarization",
 			  "uniques": [ 	
 							"[+2 Culture] [in all cities] <for [10] turns>"] } ]
-},
-{
-		"name": "The Machine Age Dawns",
-		"text": "Your nation stands at the threshold of mass production, mechanized labor, and urban expansion. How will you guide this transformation?",
-		"choices": [
-			{ "text": "Embrace Heavy Industry",
-			  "uniques": [	"[+2 Production] [in all cities] <for [10] turns>"]}
-      
-      			{ "text": "Promote Social Reform",
-			  "uniques": [	
-							"[+1 Happiness] [in all cities] <for [10] turns>"] }
-      
-     			{ "text": "Encourage Urban Expansion",
-			  "uniques": [ 	
-							"[+2 Food] [in all cities] <for [10] turns>"] } 
-				{ "text": "Restrict Industrial Growth",
-			  "uniques": [ 	
-							"[+2 Culture] [in all cities] <for [10] turns>"] } ]
-},
-{
-		"name": "Illuminating the Streets",
-		"text": "With the advent of gas lighting, your cities can extend activity into the night. But how should this new technology be implemented?",
-		"choices": [
-			{ "text": "Light the Public Streets",
-			  "uniques": [	"[+2 Happiness] [in all cities] <for [10] turns>"]}
-      
-      			{ "text": "Restrict to Elite Districts",
-			  "uniques": [	"Gain [120] [Gold]",
-							"[-1 Happiness] [in all cities] <for [10] turns>"] }
-      
-     			{ "text": "Encourage Industrial Use",
-			  "uniques": [ 	
-							"[+1 Production] [in all cities] <for [10] turns>"] } ]
-},
-  {
-		"name": "The Rise of the Hunting Clubs",
-		"text": "Upon discovering Hunting Dogs, nobles and industrial elites begin forming hunting societies. This sparks debate about land use, tradition, and modernization.",
-		"choices": [
-			{ "text": "Encourage Hunting Clubs",
-			  "uniques": [	"[+2 Happiness] [in all cities] <for [10] turns>"]}
-      
-      			{ "text": "Restrict Hunting Rights",
-			  "uniques": [	"[+1 Food] [in all cities] <for [10] turns>"] }
-      
-     			{ "text": "Commercialize Hunting",
-			  "uniques": [ 	"Gain [120] [Gold]",
-							"[-1 Culture] [in all cities] <for [10] turns>"] } ]
-  }
+}
 ]

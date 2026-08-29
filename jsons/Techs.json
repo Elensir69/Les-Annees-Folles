@@ -26,10 +26,6 @@
 			{
 				"name": "Settlement",
 				"row": 6,
-				"quote": "The Victorian era was a time of art and culture
-                                When Dickens wrote his novels and Darwin studied nature
-                                The poets sang of beauty, love, and sorrow
-                                And the painters captured scenes of yesterday and tomorrow",
 				"uniques": ["Starting tech","Enables [Embarked] units to enter ocean tiles","Enables embarkation for land units"]
 			}
 		]
@@ -44,33 +40,39 @@
 			{
 				"name": "Gas Lighting",
 				"row": 2,
-				"prerequisites": ["Settlement"],
+				"quote":"And all I ask is a tall ship and a star to steer her by. - John Masefield",
+				"prerequisites": ["Settlement"]
 			},
 			{
-				"name": "Hunting Pets",
-				"row": 4,
-				"prerequisites": ["Settlement"],
-			},
-			{
-				"name": "Saw",
-				"row": 6,
-				"prerequisites": ["Settlement"],
-			},
-			{
-				"name": "Agrarian Communes",
-				"row": 11,
-				"prerequisites": ["Slavic Culture"],
-			},
-			{
-				"name": "Mining",
-				"row": 8,
-				"prerequisites": ["Settlement"],
-			},
-                        {
-				"name": "Anesthesia",
-				"row": 9,
-				"prerequisites": ["Settlement"],
-			}
+  "name": "Hunting Pets",
+  "row": 4,
+  "quote": "The bond with animals is the oldest alliance of mankind. - George Eliot",
+  "prerequisites": ["Settlement"]
+},
+{
+  "name": "Saw",
+  "row": 6,
+  "quote": "The forest yields to the blade of progress. - Henry David Thoreau",
+  "prerequisites": ["Settlement"]
+},
+{
+  "name": "Agrarian Communes",
+  "row": 11,
+  "quote": "The land belongs to those who till it. - Leo Tolstoy",
+  "prerequisites": ["Slavic Culture"]
+},
+{
+  "name": "Mining",
+  "row": 8,
+  "quote": "Deep in the earth lie the bones of industry. - Friedrich Engels",
+  "prerequisites": ["Settlement"]
+},
+{
+  "name": "Anesthesia",
+  "row": 9,
+  "quote": "Pain is nature's alarm; science silences it with mercy. - Florence Nightingale",
+  "prerequisites": ["Settlement"]
+}
 		]
 	},
         {
@@ -81,45 +83,54 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Archaeology",
-				"row": 2,
-				"prerequisites": ["Mining"],
-			},
-			{
-				"name": "Scientific Theory",
-				"row": 3,
-				"prerequisites": ["Hunting Pets"],
-			},
-			{
-				"name": "Industrialization",
-				"row": 4,
-				"prerequisites": ["Saw", "Mining"],
-			},
-			{
-				"name": "East Asian Ships",
-				"row": 12,
-				"prerequisites": ["Printing of Sutras"],
-			},
-			{
-				"name": "Telegraph",
-				"row": 5,
-				"prerequisites": ["Gas Lighting"],
-			},
-                        {
-				"name": "Railway",
-				"row": 6,
-				"prerequisites": ["Saw","Mining"],
-			},
-                        {
-				"name": "Rifling",
-				"row": 7,
-				"prerequisites": ["Hunting Pets"],
-			}
-                        {
-				"name": "Vaccine",
-				"row": 9,
-				"prerequisites": ["Anesthesia", "Mining"],
-			}
+  "name": "Archaeology",
+  "row": 2,
+  "quote": "The past is never dead. It's not even past. - William Faulkner",
+  "prerequisites": ["Mining"]
+},
+{
+  "name": "Scientific Theory",
+  "row": 3,
+  "quote": "All truths are easy to understand once they are discovered; the point is to discover them. - Galileo Galilei",
+  "prerequisites": ["Hunting Pets"]
+},
+{
+  "name": "Industrialization",
+  "row": 4,
+  "quote": "The machine does not isolate man from the great problems of nature but plunges him more deeply into them. - Antoine de Saint-Exupéry",
+  "prerequisites": ["Saw", "Mining"]
+},
+{
+  "name": "East Asian Ships",
+  "row": 12,
+  "quote": "A ship is safe in harbor, but that’s not what ships are for. - John A. Shedd",
+  "prerequisites": ["Printing of Sutras"]
+},
+{
+  "name": "Telegraph",
+  "row": 5,
+  "uniques":["Instantly provides [1] [Foreign Influence]","Instantly provides [1] [Local Influence]"],
+  "quote": "The electric telegraph is the nerve of civilization. - Thomas Carlyle",
+  "prerequisites": ["Gas Lighting"]
+},
+{
+  "name": "Railway",
+  "row": 6,
+  "quote": "Railroads are the engines of national progress. - Ralph Waldo Emerson",
+  "prerequisites": ["Saw","Mining"]
+},
+{
+  "name": "Rifling",
+  "row": 7,
+  "quote": "The rifle is the queen of weapons. - Carl von Clausewitz",
+  "prerequisites": ["Hunting Pets"]
+},
+{
+  "name": "Vaccine",
+  "row": 9,
+  "quote": "The greatest discovery was that disease could be prevented. - Louis Pasteur",
+  "prerequisites": ["Anesthesia", "Mining"]
+}
 		]
 	},
         {
@@ -130,40 +141,47 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Novel",
-				"row": 2,
-				"prerequisites": ["Archaeology"],
-			},
-			{
-				"name": "Fridge",
-				"row": 3,
-				"prerequisites": ["Scientific Theory", "Vaccine"],
-			},
-			{
-				"name": "Steam Power",
-				"row": 4,
-				"prerequisites": ["Industrialization"],
-			},
-			{
-				"name": "Photography",
-				"row": 5,
-				"prerequisites": ["Telegraph"],
-			},
-                        {
-				"name": "Dynamite",
-				"row": 6,
-				"prerequisites": ["Industrialization","Railway"],
-			},
-                        {
-				"name": "Military Science",
-				"row": 7,
-				"prerequisites": ["Rifling"],
-			}
-                        {
-				"name": "Antibiotic",
-				"row": 9,
-				"prerequisites": ["Vaccine","Scientific Theory"],
-			}
+  "name": "Novel",
+  "row": 2,
+  "quote": "A novel is a mirror walking along a main road. - Stendhal",
+  "prerequisites": ["Archaeology"]
+},
+{
+  "name": "Fridge",
+  "row": 3,
+  "quote": "Civilization advances by extending the number of important operations we can perform without thinking about them. - Alfred North Whitehead",
+  "prerequisites": ["Scientific Theory", "Vaccine"]
+},
+{
+  "name": "Steam Power",
+  "row": 4,
+  "quote": "Steam is the true lever of power in modern industry. - Karl Marx",
+  "prerequisites": ["Industrialization"]
+},
+{
+  "name": "Photography",
+  "row": 5,
+  "quote": "Photography is truth. - Jean-Luc Godard",
+  "prerequisites": ["Telegraph"]
+},
+{
+  "name": "Dynamite",
+  "row": 6,
+  "quote": "The invention of dynamite was my mistake. - Alfred Nobel",
+  "prerequisites": ["Industrialization","Railway"]
+},
+{
+  "name": "Military Science",
+  "row": 7,
+  "quote": "War is merely the continuation of politics by other means. - Carl von Clausewitz",
+  "prerequisites": ["Rifling"]
+},
+{
+  "name": "Antibiotic",
+  "row": 9,
+  "quote": "Penicillin cures, but wine makes people happy. - Alexander Fleming",
+  "prerequisites": ["Vaccine","Scientific Theory"]
+}
 		]
 	},
         {
@@ -174,35 +192,41 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Psychoanalysis",
-				"row": 2,
-				"prerequisites": ["Novel","Photography"],
-			},
-			{
-				"name": "Biology",
-				"row": 3,
-				"prerequisites": ["Antibiotic","Steam Power"],
-			},
-			{
-				"name": "Electricity",
-				"row": 4,
-				"prerequisites": ["Steam Power", "Fridge"],
-			},
-			{
-				"name": "Opera",
-				"row": 5,
-				"prerequisites": ["Photography","Novel"],
-			},
-                        {
-				"name": "Artillery",
-				"row": 6,
-				"prerequisites": ["Dynamite","Military Science"],
-			},
-                        {
-				"name": "Transfusion",
-				"row": 9,
-				"prerequisites": ["Antibiotic","Military Science"],
-			}
+  "name": "Psychoanalysis",
+  "row": 2,
+  "quote": "Dreams are the royal road to the unconscious. - Sigmund Freud",
+  "prerequisites": ["Novel","Photography"]
+},
+{
+  "name": "Biology",
+  "row": 3,
+  "quote": "Nothing in biology makes sense except in the light of evolution. - Theodosius Dobzhansky",
+  "prerequisites": ["Antibiotic","Steam Power"]
+},
+{
+  "name": "Electricity",
+  "row": 4,
+  "quote": "We will make electricity so cheap that only the rich will burn candles. - Thomas Edison",
+  "prerequisites": ["Steam Power", "Fridge"]
+},
+{
+  "name": "Opera",
+  "row": 5,
+  "quote": "Opera is where a guy gets stabbed in the back, and instead of dying, he sings. - Robert Benchley",
+  "prerequisites": ["Photography","Novel"]
+},
+{
+  "name": "Artillery",
+  "row": 6,
+  "quote": "Artillery is the god of war. - Joseph Stalin",
+  "prerequisites": ["Dynamite","Military Science"]
+},
+{
+  "name": "Transfusion",
+  "row": 9,
+  "quote": "The blood is the life. - Bram Stoker",
+  "prerequisites": ["Antibiotic","Military Science"]
+}
 		]
 	},
         {
@@ -213,30 +237,35 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Radio", 
-				"row": 2,
-				"prerequisites": ["Psychoanalysis"],
-			},
-			{
-				"name": "Electrical Refrigeration",
-				"row": 4,
-				"prerequisites": ["Transfusion", "Electricity"],
-			},
-			{
-				"name": "Flight",
-				"row": 6,
-				"prerequisites": ["Opera","Artillery"],
-			},
-                        {
-				"name": "Replaceable Parts",
-				"row": 8,
-				"prerequisites": ["Electricity","Biology"],
-			},
-                        {
-				"name": "Combustion",
-				"row": 9,
-				"prerequisites": ["Artillery"],
-			}
+  "name": "Radio",
+  "row": 2,
+  "quote": "Radio is the theater of the mind. - Steve Allen",
+  "prerequisites": ["Psychoanalysis"]
+},
+{
+  "name": "Electrical Refrigeration",
+  "row": 4,
+  "quote": "Civilization advances by extending the number of important operations we can perform without thinking about them. - Alfred North Whitehead",
+  "prerequisites": ["Transfusion", "Electricity"]
+},
+{
+  "name": "Flight",
+  "row": 6,
+  "quote": "The engine is the heart of an airplane, but the pilot is its soul. - Walter Raleigh",
+  "prerequisites": ["Opera","Artillery"]
+},
+{
+  "name": "Replaceable Parts",
+  "row": 8,
+  "quote": "The whole is greater than the sum of its parts. - Aristotle",
+  "prerequisites": ["Electricity","Biology"]
+},
+{
+  "name": "Combustion",
+  "row": 9,
+  "quote": "The automobile is not a luxury but a necessity. - Henry Ford",
+  "prerequisites": ["Artillery"]
+}
 		]
 	},
         {
@@ -247,30 +276,35 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Ballistics", 
-				"row": 2,
-				"prerequisites": ["Radio", "Flight"],
-			},
-			{
-				"name": "Electronics",
-				"row": 4,
-				"prerequisites": ["Electrical Refrigeration"],
-			},
-			{
-				"name": "Economics",
-				"row": 7,
-				"prerequisites": ["Flight","Replaceable Parts"],
-			},
-                        {
-				"name": "Tanks",
-				"row": 6,
-				"prerequisites": ["Combustion"],
-			},
-                        {
-				"name": "Chemistry",
-				"row": 9,
-				"prerequisites": ["Combustion","Electrical Refrigeration"],
-			}
+  "name": "Ballistics",
+  "row": 2,
+  "quote": "The history of war is the history of ballistics. - Winston Churchill",
+  "prerequisites": ["Radio", "Flight"]
+},
+{
+  "name": "Electronics",
+  "row": 4,
+  "quote": "The electronic age is the age of communication. - Marshall McLuhan",
+  "prerequisites": ["Electrical Refrigeration"]
+},
+{
+  "name": "Economics",
+  "row": 7,
+  "quote": "Economics is the method; the object is to change the soul. - Margaret Thatcher",
+  "prerequisites": ["Flight","Replaceable Parts"]
+},
+{
+  "name": "Tanks",
+  "row": 6,
+  "quote": "The tank was the answer to stalemate. - J.F.C. Fuller",
+  "prerequisites": ["Combustion"]
+},
+{
+  "name": "Chemistry",
+  "row": 9,
+  "quote": "Chemistry is necessarily an experimental science: its conclusions are drawn from data, and its principles supported by evidence from facts. - Michael Faraday",
+  "prerequisites": ["Combustion","Electrical Refrigeration"]
+}
 		]
 	},
         {
@@ -281,35 +315,41 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Atomic Theory", 
-				"row": 2,
-				"prerequisites": ["Ballistics", "Electronics"],
-			},
-                        {
-				"name": "Advanced Flight", 
-				"row": 3,
-				"prerequisites": ["Ballistics", "Electronics"],
-			},
-                        {
-				"name": "Advanced Ballistics", 
-				"row": 4,
-				"prerequisites": ["Ballistics", "Tanks"],
-			},
-			{
-				"name": "Plastics",
-				"row": 6,
-				"prerequisites": ["Economics","Chemistry"],
-			},
-                        {
-				"name": "Combined Arms",
-				"row": 8,
-				"prerequisites": ["Tanks","Ballistics"],
-			}
-                        {
-				"name": "Pharmaceuticals",
-				"row": 9,
-				"prerequisites": ["Chemistry","Economics"],
-			}
+  "name": "Atomic Theory",
+  "row": 2,
+  "quote": "The unleashed power of the atom has changed everything save our modes of thinking. - Albert Einstein",
+  "prerequisites": ["Ballistics", "Electronics"]
+},
+{
+  "name": "Advanced Flight",
+  "row": 3,
+  "quote": "Aviation is proof that given the will, we have the capacity to achieve the impossible. - Eddie Rickenbacker",
+  "prerequisites": ["Ballistics", "Electronics"]
+},
+{
+  "name": "Advanced Ballistics",
+  "row": 4,
+  "quote": "In war, the way is to avoid what is strong and to strike at what is weak. - Sun Tzu",
+  "prerequisites": ["Ballistics", "Tanks"]
+},
+{
+  "name": "Plastics",
+  "row": 6,
+  "quote": "We are living in the age of plastics. - Roland Barthes",
+  "prerequisites": ["Economics","Chemistry"]
+},
+{
+  "name": "Combined Arms",
+  "row": 8,
+  "quote": "The whole art of war consists of guessing at what is on the other side of the hill. - Arthur Wellesley, Duke of Wellington",
+  "prerequisites": ["Tanks","Ballistics"]
+},
+{
+  "name": "Pharmaceuticals",
+  "row": 9,
+  "quote": "Medicine is a science of uncertainty and an art of probability. - William Osler",
+  "prerequisites": ["Chemistry","Economics"]
+}
 		]
 	},
         {
@@ -320,42 +360,49 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Satellites", 
-				"row": 2,
-                                "uniques": ["Reveals the entire map"],
-				"prerequisites": ["Atomic Theory", "Advanced Flight"],
-                                "quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
-			},
-                        {
-				"name": "Nuclear Energy", 
-				"row": 3,
-				"prerequisites": ["Atomic Theory", "Combined Arms"],
-			},
-                        {
-				"name": "Telecommunications", 
-				"row": 4,
-				"prerequisites": ["Plastics", "Combined Arms"],
-			},
-                        {
-				"name": "Guidance Systems", 
-				"row": 6,
-				"prerequisites": ["Combined Arms", "Plastics"],
-			},
-			{
-				"name": "Composites",
-				"row": 7,
-				"prerequisites": ["Combined Arms","Plastics"],
-			},
-                        {
-				"name": "Sanitation",
-				"row": 8,
-				"prerequisites": ["Pharmaceuticals","Atomic Theory"],
-			}
-                        {
-				"name": "Computers",
-				"row": 9,
-				"prerequisites": ["Atomic Theory","Advanced Ballistics"],
-			}
+  "name": "Satellites",
+  "row": 2,
+  "uniques": ["Reveals the entire map"],
+  "quote": "Now, somehow, in some new way, the sky seemed almost alien. - Lyndon B. Johnson",
+  "prerequisites": ["Atomic Theory", "Advanced Flight"]
+},
+{
+  "name": "Nuclear Energy",
+  "row": 3,
+  "quote": "Atoms for peace. - Dwight D. Eisenhower",
+  "prerequisites": ["Atomic Theory", "Combined Arms"]
+},
+{
+  "name": "Telecommunications",
+  "row": 4,
+  "quote": "The medium is the message. - Marshall McLuhan",
+  "prerequisites": ["Plastics", "Combined Arms"]
+},
+{
+  "name": "Guidance Systems",
+  "row": 6,
+  "quote": "Missiles are not for defense, they are for deterrence. - Robert McNamara",
+  "prerequisites": ["Combined Arms", "Plastics"]
+},
+{
+  "name": "Composites",
+  "row": 7,
+  "quote": "The materials of tomorrow will shape the world of today. - Buckminster Fuller",
+  "prerequisites": ["Combined Arms","Plastics"]
+},
+{
+  "name": "Sanitation",
+  "row": 8,
+  "quote": "Cleanliness is next to godliness. - John Wesley",
+  "prerequisites": ["Pharmaceuticals","Atomic Theory"]
+},
+{
+  "name": "Computers",
+  "row": 9,
+  "quote": "The computer was born to solve problems that did not exist before. - Bill Gates",
+  "prerequisites": ["Atomic Theory","Advanced Ballistics"]
+}
+
 		]
 	},
         {
@@ -366,35 +413,42 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Enigma", 
-				"row": 2,
-				"prerequisites": ["Satellites"],
-			},
-                        {
-				"name": "Pressurized Cabin", 
-				"row": 4,
-				"prerequisites": ["Telecommunications", "Computers"],
-			},
-                        {
-				"name": "Synthetic Rubber", 
-				"row": 5,
-				"prerequisites": ["Guidance Systems", "Composites"],
-			},
-			{
-				"name": "Atomic Bomb",
-				"row": 7,
-				"prerequisites": ["Nuclear Energy","Composites"],
-			},
-                        {
-				"name": "Penicillin",
-				"row": 8,
-				"prerequisites": ["Sanitation"],
-			}
-                        {
-				"name": "Aerosol Can",
-				"row": 9,
-				"prerequisites": ["Telecommunications","Sanitation"],
-			}
+  "name": "Enigma",
+  "row": 2,
+  "quote": "A riddle wrapped in a mystery inside an enigma. - Winston Churchill",
+  "prerequisites": ["Satellites"]
+},
+{
+  "name": "Pressurized Cabin",
+  "row": 4,
+  "quote": "The conquest of the air is the conquest of comfort. - Charles Lindbergh",
+  "prerequisites": ["Telecommunications", "Computers"]
+},
+{
+  "name": "Synthetic Rubber",
+  "row": 5,
+  "quote": "Necessity is the mother of invention. - Plato",
+  "prerequisites": ["Guidance Systems", "Composites"]
+},
+{
+  "name": "Atomic Bomb",
+  "row": 7,
+  "quote": "I am become Death, the destroyer of worlds. - J. Robert Oppenheimer (quoting the Bhagavad Gita)",
+  "prerequisites": ["Nuclear Energy","Composites"]
+},
+{
+  "name": "Penicillin",
+  "row": 8,
+  "quote": "One sometimes finds what one is not looking for. - Alexander Fleming",
+  "prerequisites": ["Sanitation"]
+},
+{
+  "name": "Aerosol Can",
+  "row": 9,
+  "quote": "Small things make big differences. - Malcolm Gladwell",
+  "prerequisites": ["Telecommunications","Sanitation"]
+}
+
 		]
 	},
         {
@@ -405,33 +459,39 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Post-Conflict Militarization", 
-				"row": 2,
-				"prerequisites": ["Atomic Bomb"],
-			},
-                        {
-				"name": "Global Coexistence", 
-				"row": 4,
-				"uniques":["Gifts of Gold to City-States generate [+50]% more Influence","Allied City-States will occasionally gift Great People"],
-				"prerequisites": ["Enigma", "Aerosol Can"],
-			},
-                        {
-				"name": "Strategic Deterrence", 
-				"row": 5,
-				"uniques":["[+25]% Strength <when fighting in [Friendly Land] tiles>","[+10]% Yield from every [Trench]"],
-				"prerequisites": ["Penicillin", "Synthetic Rubber"],
-			},
-			{
-				"name": "Defense Alliances",
-				"row": 7,
-				"uniques":["[+2 Culture, +2 Faith, +2 Happiness] from every [Trenchs]", "[+10]% Yield from every [Barbed Wire]"],
-				"prerequisites": ["Atomic Bomb","Enigma"],
-			},
-                        {
-				"name": "Nuclear Escalation",
-				"row": 9,
-				"prerequisites": ["Pressurized Cabin"],
-			}
+  "name": "Post-Conflict Militarization",
+  "row": 2,
+  "quote": "Only the dead have seen the end of war. - George Santayana",
+  "prerequisites": ["Atomic Bomb"]
+},
+{
+  "name": "Global Coexistence",
+  "row": 4,
+  "uniques": ["Gifts of Gold to City-States generate [+50]% more Influence","Allied City-States will occasionally gift Great People"],
+  "quote": "We must learn to live together as brothers or perish together as fools. - Martin Luther King Jr.",
+  "prerequisites": ["Enigma", "Aerosol Can"]
+},
+{
+  "name": "Strategic Deterrence",
+  "row": 5,
+  "uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>","[+10]% Yield from every [Trench]"],
+  "quote": "Deterrence is the art of producing in the mind of the enemy the fear to attack. - Bernard Brodie",
+  "prerequisites": ["Penicillin", "Synthetic Rubber"]
+},
+{
+  "name": "Defense Alliances",
+  "row": 7,
+  "uniques": ["[+2 Culture, +2 Faith, +2 Happiness] from every [Trenchs]", "[+10]% Yield from every [Barbed Wire]"],
+  "quote": "An alliance is not merely a partnership; it is a pledge of mutual survival. - Dean Acheson",
+  "prerequisites": ["Atomic Bomb","Enigma"]
+},
+{
+  "name": "Nuclear Escalation",
+  "row": 9,
+  "quote": "The nuclear arms race is like two sworn enemies standing waist deep in gasoline, one with three matches, the other with five. - Carl Sagan",
+  "prerequisites": ["Pressurized Cabin"]
+}
+
 		]
 	},
         {
@@ -442,32 +502,38 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Space Militarization", 
-				"row": 2,
-				"prerequisites": ["Defense Alliances"],
-			},
-                        {
-				"name": "Proxy Conflicts", 
-				"row": 4,
-				"prerequisites": ["Nuclear Escalation", "Defense Alliances"],
-			},
-                        {
-				"name": "Modern Interventions", 
-				"row": 5,
-				"prerequisites": ["Strategic Deterrence", "Post-Conflict Militarization"],
-			},
-			{
-				"name": "Post-War Recovery",
-				"row": 7,
-				"uniques":["[+2 Happiness, +2 Food, +1 Production] from [Bonus resource] tiles [in all cities]","[+10]% Yield from every [Bonus resource]"],
-				"prerequisites": ["Nuclear Escalation","Global Coexistence"],
-			},
-                        {
-				"name": "Market Liberalization",
-				"row": 9,
-				"uniques":["[+33]% [Gold] [in all cities]","[+2 Gold] from [Civil Factory] tiles [in all cities]"],
-				"prerequisites": ["Global Coexistence"],
-			}
+  "name": "Space Militarization",
+  "row": 2,
+  "quote": "The conquest of space is not only a matter of science but also of power. - John F. Kennedy",
+  "prerequisites": ["Defense Alliances"]
+},
+{
+  "name": "Proxy Conflicts",
+  "row": 4,
+  "quote": "In the nuclear age, proxy wars are the real wars. - Henry Kissinger",
+  "prerequisites": ["Nuclear Escalation", "Defense Alliances"]
+},
+{
+  "name": "Modern Interventions",
+  "row": 5,
+  "quote": "The supreme art of war is to subdue the enemy without fighting. - Sun Tzu",
+  "prerequisites": ["Strategic Deterrence", "Post-Conflict Militarization"]
+},
+{
+  "name": "Post-War Recovery",
+  "row": 7,
+  "uniques": ["[+2 Happiness, +2 Food, +1 Production] from [Bonus resource] tiles [in all cities]","[+10]% Yield from every [Bonus resource]"],
+  "quote": "In war, destruction is easy; in peace, reconstruction is hard. - Georges Clemenceau",
+  "prerequisites": ["Nuclear Escalation","Global Coexistence"]
+},
+{
+  "name": "Market Liberalization",
+  "row": 9,
+  "uniques": ["[+33]% [Gold] [in all cities]","[+2 Gold] from [Civil Factory] tiles [in all cities]","Instantly provides [1] [Foreign Influence]"],
+  "quote": "The market is not an invention of capitalism. It has existed for centuries. It is an invention of civilization. - Mikhail Gorbachev",
+  "prerequisites": ["Global Coexistence"]
+}
+
 		]
 	},
         {
@@ -478,35 +544,44 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Globalization", 
-				"row": 2,
-				"prerequisites": ["Market Liberalization","Post-War Recovery"]
-			},
-                        {
-				"name": "International Trade Agreements", 
-				"row": 3,
-				"prerequisites": ["Proxy Conflicts", "Post-War Recovery"]
-			},
-                        {
-				"name": "Terrorism Response", 
-				"row": 4,
-				"prerequisites": ["Proxy Conflicts", "Modern Interventions"]
-			},
-                        {
-				"name": "Environmental Governance",
-				"row": 7,
-				"prerequisites": ["Modern Interventions"]
-			},
-			{
-				"name": "Personal Computing",
-				"row": 8,
-				"prerequisites": ["Space Militarization"]
-			},
-                        {
-				"name": "NAFTA",
-				"row": 9,
-				"prerequisites": ["Post-War Recovery"]
-			}
+  "name": "Globalization",
+  "row": 2,
+  "uniques":["Instantly provides [1] [Foreign Influence]"],
+  "quote": "Globalization is a fact, not a policy choice. - Kofi Annan",
+  "prerequisites": ["Market Liberalization","Post-War Recovery"]
+},
+{
+  "name": "International Trade Agreements",
+  "row": 3,
+  "uniques":["Instantly provides [1] [Foreign Influence]"],
+  "quote": "When goods don’t cross borders, soldiers will. - Frédéric Bastiat",
+  "prerequisites": ["Proxy Conflicts", "Post-War Recovery"]
+},
+{
+  "name": "Terrorism Response",
+  "row": 4,
+  "quote": "The price of freedom is eternal vigilance. - Thomas Jefferson",
+  "prerequisites": ["Proxy Conflicts", "Modern Interventions"]
+},
+{
+  "name": "Environmental Governance",
+  "row": 7,
+  "quote": "We do not inherit the Earth from our ancestors; we borrow it from our children. - Native American Proverb",
+  "prerequisites": ["Modern Interventions"]
+},
+{
+  "name": "Personal Computing",
+  "row": 8,
+  "quote": "The personal computer is the bicycle of the mind. - Steve Jobs",
+  "prerequisites": ["Space Militarization"]
+},
+{
+  "name": "NAFTA",
+  "row": 9,
+  "quote": "Trade is not a zero-sum game. - Ronald Reagan",
+  "prerequisites": ["Post-War Recovery"]
+}
+
 		]
 	},
         {
@@ -517,28 +592,33 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Internet", 
-				"uniques": ["[+2 Science, +3 Happiness] [in all cities]"],
-				"row": 2,
-				"prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"]
-			},
-            {
-				"name": "Global Institutions", 
-				"row": 4,
-				"uniques": ["[+2 Production] from [Military Factory] tiles [in all cities]"],
-				"prerequisites": ["Environmental Governance", "NAFTA","International Trade Agreements"]
-			},
-            {
-				"name": "Conventional Warfare", 
-				"row": 6,
-				"prerequisites": ["Terrorism Response","NAFTA"]
-			},
-			{
-				"name": "Social Media",
-				"uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
-				"row": 9,
-				"prerequisites": ["Globalization", "Personal Computing","Terrorism Response"]
-			}
+  "name": "Internet",
+  "uniques": ["[+2 Science, +3 Happiness] [in all cities]"],
+  "row": 2,
+  "quote": "The Internet is becoming the town square for the global village of tomorrow. - Bill Gates",
+  "prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"]
+},
+{
+  "name": "Global Institutions",
+  "row": 4,
+  "uniques": ["[+2 Production] from [Military Factory] tiles [in all cities]"],
+  "quote": "International institutions are the scaffolding of global order. - Boutros Boutros-Ghali",
+  "prerequisites": ["Environmental Governance", "NAFTA","International Trade Agreements"]
+},
+{
+  "name": "Conventional Warfare",
+  "row": 6,
+  "quote": "In war, the conventional is often the most devastating. - Dwight D. Eisenhower",
+  "prerequisites": ["Terrorism Response","NAFTA"]
+},
+{
+  "name": "Social Media",
+  "uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
+  "row": 9,
+  "quote": "Social media is not a media. The key is to listen, engage, and build relationships. - David Alston",
+  "prerequisites": ["Globalization", "Personal Computing","Terrorism Response"]
+}
+
 		]
 	},
         {
@@ -549,35 +629,41 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Farm Technology", 
-				"row": 2,
-				"uniques": ["[+4 Production] from [Wheat] tiles [in all cities]","[+4 Production] from [Ranch] tiles [in all cities]","[+4 Production] from [Stable] tiles [in all cities]"],
-				"prerequisites": ["Global Institutions", "Conventional Warfare"],
-			},
-                        {
-				"name": "Ecology",
-				"row": 6,
-				"uniques": ["[+3 Science] from [Forest] tiles [in all cities]","[+3 Science] from [Jungle] tiles [in all cities]","[+3 Science] from [Marsh] tiles [in all cities]"],
-				"prerequisites": ["Social Media", "Internet"],
-			}
-                        {
-				"name": "Renewable Materials", 
-				"row": 3,
-                "uniques": ["[+2 Gold, +2 Production] from [Strategic resource] tiles [in all cities]"],
-				"prerequisites": ["Global Institutions", "Conventional Warfare"],
-			},
-                        {
-				"name": "Smartphones",
-				"row": 7,
-				"uniques": ["[+2 Science, +2 Production] from [Civil Factory] tiles [in all cities]"],
-				"prerequisites": ["Social Media", "Internet"],
-			},
-                        {
-				"name": "Cloud Computing",
-				"row": 9,
-                "uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
-				"prerequisites": ["Internet"],
-			}
+  "name": "Farm Technology",
+  "row": 2,
+  "uniques": ["[+4 Production, +4 Food, +4 Gold] from [Wheat] tiles [in all cities]","[+4 Production, +4 Food, +4 Gold] from [Ranch] tiles [in all cities]","[+4 Production, +4 Food, +4 Gold] from [Stable] tiles [in all cities]"],
+  "quote": "Agriculture is the foundation of civilization. - Will Durant",
+  "prerequisites": ["Global Institutions", "Conventional Warfare"]
+},
+{
+  "name": "Ecology",
+  "row": 6,
+  "uniques": ["[+3 Science] from [Forest] tiles [in all cities]","[+3 Science] from [Jungle] tiles [in all cities]","[+3 Science] from [Marsh] tiles [in all cities]"],
+  "quote": "The Earth is what we all have in common. - Wendell Berry",
+  "prerequisites": ["Social Media", "Internet"]
+},
+{
+  "name": "Renewable Materials",
+  "row": 3,
+  "uniques": ["[+2 Gold, +2 Production] from [Strategic resource] tiles [in all cities]"],
+  "quote": "Sustainability is not a choice, it is a necessity. - Gro Harlem Brundtland",
+  "prerequisites": ["Global Institutions", "Conventional Warfare"]
+},
+{
+  "name": "Smartphones",
+  "row": 7,
+  "uniques": ["[+2 Science, +2 Production] from [Civil Factory] tiles [in all cities]"],
+  "quote": "The smartphone revolution is under way, and it is the future. - Eric Schmidt",
+  "prerequisites": ["Social Media", "Internet"]
+},
+{
+  "name": "Cloud Computing",
+  "row": 9,
+  "uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
+  "quote": "Cloud computing is a new model of computing that will change the way we think. - Larry Ellison",
+  "prerequisites": ["Internet"]
+}
+
 		]
 	},
         {
@@ -588,28 +674,33 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Global Surveillance Systems", 
-				"row": 2,
-				"uniques": ["[+1 Science] from [Mine] tiles [in all cities]","[+1 Science] from [Mine] tiles [in capital]"],
-				"prerequisites": ["Smartphones", "Renewable Materials"],
-			},
-                        {
-				"name": "Modern Burned Earth", 
-				"row": 3,
-				"prerequisites": ["Renewable Materials", "Cloud Computing"],
-			},
-                        {
-				"name": "Lasers",
-				"row": 7,
-				"uniques": ["[+3 Production] from [Military Factory] tiles [in all cities]","[+1 Production] from [Civil Factory] tiles [in all cities]"],
-				"prerequisites": ["Ecology"],
-			},
-                        {
-				"name": "Climate Engineering",
-				"uniques": ["[+1 Science] from [Tundra] tiles [in all cities]","[+1 Science] from [Desert] tiles [in all cities]","[+1 Science] from [Snow] tiles [in all cities]"],
-				"row": 9,
-				"prerequisites": ["Farm Technology"],
-			}
+  "name": "Global Surveillance Systems",
+  "row": 2,
+  "uniques": ["[+1 Science] from [Mine] tiles [in all cities]","[+1 Science] from [Mine] tiles [in capital]"],
+  "quote": "Big Brother is watching you. - George Orwell",
+  "prerequisites": ["Smartphones", "Renewable Materials"]
+},
+{
+  "name": "Modern Burned Earth",
+  "row": 3,
+  "quote": "War is cruelty, and you cannot refine it. - William Tecumseh Sherman",
+  "prerequisites": ["Renewable Materials", "Cloud Computing"]
+},
+{
+  "name": "Lasers",
+  "row": 7,
+  "uniques": ["[+3 Production] from [Military Factory] tiles [in all cities]","[+1 Production] from [Civil Factory] tiles [in all cities]"],
+  "quote": "Light is the first of painters. - Jules Michelet",
+  "prerequisites": ["Ecology"]
+},
+{
+  "name": "Climate Engineering",
+  "row": 9,
+  "uniques": ["[+1 Science] from [Tundra] tiles [in all cities]","[+1 Science] from [Desert] tiles [in all cities]","[+1 Science] from [Snow] tiles [in all cities]"],
+  "quote": "We cannot command nature except by obeying her. - Francis Bacon",
+  "prerequisites": ["Farm Technology"]
+}
+
 		]
 	},
         {
@@ -620,28 +711,33 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Urban Warfare Training", 
-				"row": 2,
-				"prerequisites": ["Global Surveillance Systems", "Modern Burned Earth"],
-			},
-                        {
-				"name": "Drone Warfare", 
-				"uniques": ["[+60]% Strength <for [Drone] units>","[+20]% Strength <for [Infantry] units>","[+30]% Strength <for [Armored] units>"],
-				"row": 6,
-				"prerequisites": ["Lasers","Modern Burned Earth"],
-			},
-                        {
-				"name": "Biodefense",
-				"row": 4,
-				"uniques": ["[+200]% Yield from every [Forest]","[+200]% Yield from every [Jungle]","[+200]% Yield from every [Marsh]"],
-				"prerequisites": ["Climate Engineering"],
-			},
-                        {
-				"name": "Stealth Technology",
-				"uniques": ["[+59]% Strength <for [Water] units>"],
-				"row": 9,
-				"prerequisites": ["Lasers"],
-			}
+  "name": "Urban Warfare Training",
+  "row": 2,
+  "quote": "In urban warfare, every building is a fortress. - David Petraeus",
+  "prerequisites": ["Global Surveillance Systems", "Modern Burned Earth"]
+},
+{
+  "name": "Drone Warfare",
+  "row": 6,
+  "uniques": ["[+60]% Strength <for [Drone] units>","[+20]% Strength <for [Infantry] units>","[+30]% Strength <for [Armored] units>"],
+  "quote": "The future of war is robotics. - Peter Singer",
+  "prerequisites": ["Lasers","Modern Burned Earth"]
+},
+{
+  "name": "Biodefense",
+  "row": 4,
+  "uniques": ["[+200]% Yield from every [Forest]","[+200]% Yield from every [Jungle]","[+200]% Yield from every [Marsh]"],
+  "quote": "Biological weapons are the poor man's atomic bomb. - William C. Patrick III",
+  "prerequisites": ["Climate Engineering"]
+},
+{
+  "name": "Stealth Technology",
+  "row": 9,
+  "uniques": ["[+59]% Strength <for [Water] units>"],
+  "quote": "The ultimate defense is invisibility. - Sun Tzu",
+  "prerequisites": ["Lasers"]
+}
+
 		]
 	},
         {
@@ -652,11 +748,12 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Humanity",
-				"row": 6,
-				"uniques": ["Can be continually researched"],
-				"prerequisites": ["Urban Warfare Training","Drone Warfare","Biodefense","Stealth Technology"],
-			}
+  "name": "Humanity",
+  "row": 6,
+  "uniques": ["Can be continually researched"],
+  "quote": "The proper study of mankind is man. - Alexander Pope",
+  "prerequisites": ["Urban Warfare Training","Drone Warfare","Biodefense","Stealth Technology"]
+}
 		]
 	}
 ]

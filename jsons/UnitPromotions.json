@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Shut Down",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["Earn [35]% of the damage done to [City] units as [Gold]","[-5]% Strength for enemy [Military] units in adjacent [City] tiles"]
+	},
+	{
 		"name": "[Ingeniør] Ability",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],

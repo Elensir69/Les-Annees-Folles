@@ -10,7 +10,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Imperialism]>","Only available <before adopting [Revolution]>",
-            "[+2 Gold, +2 Food] [in all cities]","[+15]% [Culture] [in all cities]"
+            "[+2 Gold, +2 Food] [in all cities]","[+15]% [Culture] [in all cities]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -73,13 +73,13 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Liberty]>","Only available <before adopting [Revolution]>",
-            "[+2 Gold, +2 Production] [in all cities]","[+25]% [Gold] [in all cities]"
+            "[+2 Gold, +2 Production] [in all cities]","[+25]% [Gold] [in all cities]","Instantly provides [1] [Foreign Influence]"
         ],
         "policies": [
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+2 Happiness] per [3] population [in all cities]"
+                    "[+2 Happiness] per [3] population [in all cities]","Instantly provides [1] [Foreign Influence]"
                 ],
                 "row": 1,
                 "column": 1
@@ -135,7 +135,7 @@
             "Scientific": 10
         },
         "uniques": ["Only available <before adopting [Liberty]>","Only available <before adopting [Imperialism]>",
-            "[+1 Science, +1 Faith] [in all cities]","[+10]% [Science] [in all cities]","[+10]% [Faith] [in all cities]"
+            "[+1 Science, +1 Faith] [in all cities]","[+10]% [Science] [in all cities]","[+10]% [Faith] [in all cities]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -195,7 +195,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Social Reform]>","[+2 Gold] from [Luxury resource] tiles [in all cities]"
+        "uniques": ["Only available <before adopting [Social Reform]>","[+2 Gold] from [Luxury resource] tiles [in all cities]","Instantly provides [1] [Foreign Influence]"
         ],
         "policies": [
             {
@@ -247,7 +247,7 @@
             "Domination": 0,
             "Scientific": 10
         },
-        "uniques": ["Only available <before adopting [Colonialism]>","[+1 Science, +2 Gold] [in all cities]"
+        "uniques": ["Only available <before adopting [Colonialism]>","[+1 Science, +2 Gold] [in all cities]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -300,7 +300,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[Gold] cost of purchasing [All] buildings [-33]%"
+            "[Gold] cost of purchasing [All] buildings [-33]%","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -354,7 +354,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+15]% [Culture] [in all cities]"
+            "[+15]% [Culture] [in all cities]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -408,7 +408,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[Gold] cost of purchasing [All] units [-33]%"
+            "[Gold] cost of purchasing [All] units [-33]%","Instantly provides [2] [Foreign Influence]"
         ],
         "policies": [
             {
@@ -446,7 +446,7 @@
             {
                 "name": "War Preparation Complete",
                 "uniques": [
-                    "[+20]% Strength <while the empire is happy>"
+                    "[+20]% Strength <while the empire is happy>","Instantly provides [2] [Foreign Influence]"
                 ]
             }
         ]
@@ -464,7 +464,7 @@
         },
         "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Allies]>","Only available <before adopting [Not Aligned]>","Only available <before adopting [Socialism]>",
             "[+1] Sight <for [{Military} {Land}] units>",
-            "[Gold] cost of purchasing [All] units [-53]%"
+            "[Gold] cost of purchasing [All] units [-53]%","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -504,7 +504,7 @@
                 "name": "Axis Complete",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] XP [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]","Instantly provides [1] [Foreign Influence]"
                 ]
             }
         ]
@@ -521,7 +521,7 @@
         },
         "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Not Aligned]>","Only available <before adopting [Socialism]>",
             "[+1 Production] per [3] social policies adopted",
-            "[+3 Happiness] [in capital]","[-3 Gold] [in capital]"
+            "[+3 Happiness] [in capital]","[-3 Gold] [in capital]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -577,7 +577,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Communism]>","Only available <before adopting [Socialism]>",
-            "[+50]% Yield from every [Bonus resource]"
+            "[+50]% Yield from every [Bonus resource]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -631,7 +631,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Axis]>","Only available <before adopting [Not Aligned]>","Only available <before adopting [Socialism]>",
-            "[+2] Sight <for [{Military} {Water}] units>",
+            "[+2] Sight <for [{Military} {Water}] units>","Instantly provides [1] [Foreign Influence]",
             "[+2 Happiness] [in capital]"
         ],
         "policies": [
@@ -689,7 +689,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Communism]>","Only available <before adopting [Not Aligned]>",
-            "[+25]% [Production] [in all cities]","[+25]% [Science] [in all cities]","[+15]% [Gold] [in all cities]"
+            "[+25]% [Production] [in all cities]","[+25]% [Science] [in all cities]","[+15]% [Gold] [in all cities]","Instantly provides [1] [Local Influence]"
         ],
         "policies": [
             {
@@ -742,7 +742,7 @@
             "Domination": 5,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Eastern Bloc]>","Only available <before adopting [Non-Aligned Movement]>",
+        "uniques": ["Only available <before adopting [Eastern Bloc]>","Only available <before adopting [Non-Aligned Movement]>","Instantly provides [1] [Foreign Influence]",
             "[+33]% Great Person generation [in all cities]","New [Melee] units start with [45] XP [in all cities]","New [Ranged] units start with [45] XP [in all cities]","[+33]% City Strength from defensive buildings",
             "[Gold] cost of purchasing items in cities [-33]%","[-33]% maintenance on road & railroads","Can build [All] improvements at a [+33]% rate","[-33]% Culture cost of natural border growth [in all cities]"
         ],
@@ -796,7 +796,7 @@
             "Domination": 5,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Eastern Bloc]>","Only available <before adopting [Western Bloc]>",
+        "uniques": ["Only available <before adopting [Eastern Bloc]>","Only available <before adopting [Western Bloc]>","Instantly provides [1] [Local Influence]",
             "[+33]% Great Person generation [in all cities]","New [Melee] units start with [45] XP [in all cities]","New [Ranged] units start with [45] XP [in all cities]","[+33]% City Strength from defensive buildings",
             "[Gold] cost of purchasing items in cities [-33]%","[-33]% maintenance on road & railroads","Can build [All] improvements at a [+33]% rate","[-33]% Culture cost of natural border growth [in all cities]"
         ],
@@ -850,7 +850,7 @@
             "Domination": 5,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Western Bloc]>","Only available <before adopting [Non-Aligned Movement]>",
+        "uniques": ["Only available <before adopting [Western Bloc]>","Only available <before adopting [Non-Aligned Movement]>","Instantly provides [1] [Local Influence]",
             "[+33]% Great Person generation [in all cities]","New [Melee] units start with [45] XP [in all cities]","New [Ranged] units start with [45] XP [in all cities]","[+33]% City Strength from defensive buildings",
             "[Gold] cost of purchasing items in cities [-33]%","[-33]% maintenance on road & railroads","Can build [All] improvements at a [+33]% rate","[-33]% Culture cost of natural border growth [in all cities]"
         ],

@@ -6,9 +6,166 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Appalachia",
+	"leaderName": "Mary Harris Jones",
+	"adjective": ["Appalachia"],
+	"startBias":["Grassland","River","Forest"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [59, 61, 59],
+    "outerColor": [213, 227, 213],
+	"uniqueName": "Labor movements",
+	"uniques": ["Anglo",
+	"Starts with [Revolution] adopted","[+10]% [Production] [in all cities]","Instantly provides [2] [Local Influence] <upon entering a new era>"],
+	"cities": ["Charleston", "Beckley", "Bluefield", "Harlan", "Hazard", "Pikeville", "Morgantown", "Wheeling", "Knoxville", "Asheville", "Roanoke", "Bristol"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Boston",
+	"leaderName": "Samuel Adams",
+	"adjective": ["Boston"],
+	"startBias":["Grassland","River","Forest"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [242, 201, 76],
+    "outerColor": [47, 47, 47],
+	"uniqueName": "Commonwealth of Commerce",
+	"uniques": ["Anglo",
+	"[+2 Culture, +1 Gold] from every [Harbor]", "[+2 Culture] from every [Merchant]","[+50]% Production when constructing [Minute Man] units [in all cities] <upon being declared war on by [Hostile] Civilizations> <for [10] turns>"],
+	"cities": ["Boston", "Salem", "Plymouth", "Cambridge", "Concord", "New Bedford", "Gloucester"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "The Sheas",
+	"leaderName": "Daniel Shea",
+	"adjective": ["The Sheas"],
+	"startBias":["Grassland","River","Forest"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [26, 19, 19],
+    "outerColor": [255, 89, 89],
+	"uniqueName": "Springfield Federal Armory",
+	"uniques": ["Anglo",
+	"Gain a free [Springfield Armory] [in capital]","No movement cost to pillage <for [All] units>","All newly-trained [Military] units [in all cities] receive the [Shut Down] promotion"],
+	"cities": ["Springfield", "Amherst", "Northampton", "Greenfield", "Brattleboro", "Rutland", "Montpelier"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Cascadia",
+	"leaderName": "Chief Seattle",
+	"adjective": ["Cascadia"],
+	"startBias":["River","Pines","Forest","Avoid [Desert]"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [46, 139, 87],
+    "outerColor": [11, 61, 46],
+	"uniqueName": "Timber & Tide",
+	"uniques": ["Anglo",
+	"[+1 Production, +1 Gold] from every [Pines]","[+1 Production, +1 Gold] from every [Forest]","[+1 Gold] from every [Log Cabin]","[+1 Gold] from each Trade Route"],
+	"cities": ["Seattle", "Portland", "Vancouver", "Olympia", "Astoria", "Bellingham", "Tacoma"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "California",
+	"leaderName": "Pío Pico",
+	"adjective": ["California"],
+	"startBias":["Coast","Plains"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [30, 144, 255],
+    "outerColor": [11, 61, 145],
+	"uniqueName": "Rancho Prosperity",
+	"uniques": ["Anglo",
+	"[+1 Faith, +1 Faith, +1 Food] from every [Pasture]","[+4]% [Faith] [in all cities]","[+4]% [Food] [in all cities]","Gain [100]-[200] [Gold] <upon discovering [Industrialization] technology>"],
+	"cities": ["Los Angeles", "San Francisco", "San Diego", "Monterey", "Sacramento", "Sonoma", "San José"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Deseret",
+	"leaderName": "Lot Smith",
+	"adjective": ["Deseret"],
+	"startBias":["Desert","Oasis"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [212, 160, 23],
+    "outerColor": [107, 74, 0],
+	"uniqueName": "Prophet and Organizer",
+	"uniques": ["Anglo",
+	"[+3 Food] in cities on [Hill] tiles","[+1 Faith] from every [Oasis]","[+1 Faith] from every [River]","[+4]% [Culture] [in all cities]","[+4]% [Faith] [in all cities]"],
+	"cities": ["Salt Lake City", "Provo", "Ogden", "Nauvoo", "Tooele", "Cedar City", "Fillmore"],
+	"spyNames": ["Saki"]
+},
+// American
+{
 	"name": "The Falklands",
 	"leaderName": "Richard Moody",
-	"adjective": ["VermoThe Falklandsnt"],
+	"adjective": ["Falklands"],
 	"startBias":["Grassland"],
 	"preferredVictoryType": "Destruction",
 
@@ -211,9 +368,9 @@
 		"innerColor": [245, 221, 213],
 		"uniqueName": "Cruel Bounty",
 		"uniques": ["Central African",
-        "[Gold] cost of purchasing [All] units [-25]%",
-		"[+30]% Yield from every [Jungle]","[+30]% Yield from every [Coast]",
-		"[Great General] is earned [+30]% faster","[Great Merchant] is earned [+30]% faster"],
+        "[Gold] cost of purchasing [All] units [-15]%",
+		"[+20]% Yield from every [Jungle]","[+20]% Yield from every [Coast]",
+		"[Great General] is earned [+10]% faster","[Great Merchant] is earned [+10]% faster"],
 		"cities": ["Kasongo","Nyangwe","Kisangani","Lupungu","Katanga","Marera","Kirundu","Mtowa","Riba Riba","Kabambare"],
 		"spyNames": ["Yuan"]
 	},
@@ -405,7 +562,7 @@
 		"innerColor": [17, 28, 19],
 		"uniqueName": "Florentine Enlightenment",
 		"uniques": ["Italian","[+1 Science, +1 Culture] from every [House] <after discovering [Novel]>","[+25]% [Culture] [in all cities]"],
-		"cities": ["Florence", "Pisa", "Siena", "Livorno", "Arezzo"],
+		"cities": ["Lucca", "Pisa", "Siena", "Livorno", "Arezzo"],
 		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
 	},
 {
@@ -549,7 +706,7 @@
 		"outerColor": [53, 132, 222],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Destroyer of Bau",
-		"uniques": ["Oceanian","Military Units gifted from City-States start with [15] XP","Receive [+200]% Gold from Barbarian encampments and pillaging Cities","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+		"uniques": ["Oceanian","Military Units gifted from City-States start with [5] XP","Receive [+70]% Gold from Barbarian encampments and pillaging Cities","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
 		"cities": ["Levuka", "Suva", "Bau", "Nausori", "Viseisei", "Lasakau", "Soso", "Naitasiri", "Tailevu", "Ra", "Savusavu"],
 		"spyNames": ["Saki"]
 	},
@@ -3910,9 +4067,9 @@
         "favoredReligion": "Baptist",
 		"uniqueName": "Emancipation Proclamation",
 		"uniques": ["Anglo",
-		"[+25]% [Production] from every [House]","[+15]% [Production] from every [Mill]","[-2]% [Happiness] from every [Slave Labor Plantation]","[Gold] cost of purchasing [Slave] units [+900]%",
+		"[+10]% [Production] from every [House]","[+15]% [Production] from every [Mill]","[-2]% [Happiness] from every [Slave Labor Plantation]","[Gold] cost of purchasing [Slave] units [+900]%",
 	"[+10]% [Science] [in all cities]","[+10]% [Gold] [in all cities]"], 
-		"cities": ["Washington D.C.","New York","Philadelphia","Boston","Baltimore","Chicago","Cincinnati","Cleveland","Detroit","Buffalo","Pittsburgh","St. Louis","Milwaukee","Providence","Hartford","Albany","Springfield","Indianapolis","Columbus","Louisville"],
+		"cities": ["Washington D.C.","New York","Philadelphia","Baltimore","Chicago","Cincinnati","Cleveland","Detroit","Buffalo","Pittsburgh","St. Louis","Milwaukee","Providence","Hartford","Albany","Springfield","Indianapolis","Columbus","Louisville"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	

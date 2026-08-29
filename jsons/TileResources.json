@@ -801,6 +801,21 @@
 		"uniques":["Stockpiled","Not shown on world screen <without [Literary Work]>"]
 	},
 	{
+		"name": "Foreign Influence",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <without [Foreign Influence]>"]
+	},
+	{
+		"name": "Local Influence",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <without [Local Influence]>"]
+	},
+	{
+		"name": "Corruption",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <without [Corruption]>"]
+	},
+	{
 		"name": "Composition",
 		"resourceType": "Strategic",
 		"uniques":["Stockpiled","Not shown on world screen <without [Composition]>"]

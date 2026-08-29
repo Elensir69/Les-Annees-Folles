@@ -22,5 +22,62 @@
 		"production":2,
 		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
-	}
+	},
+	//// Regional Specialists
+	{
+  "name":"Griot",
+  "culture":2,
+  "gold":1,
+  "greatPersonPoints": {"Great Artist":2, "Great Merchant":1},
+  "color": [245,155,66]
+},
+{
+  "name":"Jukurrpa",
+  "faith":2,
+  "culture":1,
+  "greatPersonPoints": {"Great Prophet":2, "Great Artist":1},
+  "color": [252,123,3]
+},
+{
+  "name":"Patriot",
+  "production":2,
+  "culture":1,
+  "greatPersonPoints": {"Great Engineer":2, "Great Artist":1},
+  "color": [86,182,214]
+},
+{
+  "name":"Shaman",
+  "food":2,
+  "faith":1,
+  "greatPersonPoints": {"Great Scientist":1, "Great Prophet":2},
+  "color": [107,255,164]
+},
+{
+  "name":"Inventor",
+  "science":2,
+  "production":1,
+  "greatPersonPoints": {"Great Scientist":2, "Great Engineer":1},
+  "color": [150,242,155]
+},
+{
+  "name":"Scholar",
+  "faith":1,
+  "science":2,
+  "greatPersonPoints": {"Great Scientist":2, "Great Prophet":1},
+  "color": [210,242,80]
+},
+{
+  "name":"Philosopher",
+  "faith":2,
+  "gold":1,
+  "greatPersonPoints": {"Great Prophet":2, "Great Merchant":1},
+  "color": [240,56,36]
+},
+{
+  "name":"Navigator",
+  "culture":1,
+  "science":2,
+  "greatPersonPoints": {"Great Admiral":3},
+  "color": [252,3,69]
+}
 ]

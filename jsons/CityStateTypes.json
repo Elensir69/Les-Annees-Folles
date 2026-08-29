@@ -6,7 +6,7 @@
             "[+3 Gold]"
             
         ],
-        "allyBonusUniques": ["[+6 Happiness]",
+        "allyBonusUniques": ["[+6 Happiness]","Gain a free [African Embassy] [in all cities]",
             "[+6 Gold]","Provides military units every ≈[17] turns"
         ],
         "color": [245, 155, 66]
@@ -76,7 +76,7 @@
             "[+6 Faith]"
         ],
         "color": [240, 56, 36]
-    }
+    },
     {
         "name": "Polynessian",
         "friendBonusUniques": [
