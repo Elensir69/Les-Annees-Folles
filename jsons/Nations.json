@@ -4071,7 +4071,7 @@
     },
 {
 		"name": "United States of America",
-		"leaderName": "Abraham Lincoln",
+		"leaderName": "Wilson",
 		"startBias": ["Coast"],
 		"adjective": ["United States of America"],
 		"preferredVictoryType": "Supremacy",
@@ -4091,10 +4091,9 @@
         "innerColor": [164, 252, 191],
 
         "favoredReligion": "Baptist",
-		"uniqueName": "Emancipation Proclamation",
-		"uniques": ["Anglo",
-		"[+10]% [Production] from every [House]","[+15]% [Production] from every [Mill]","[-2]% [Happiness] from every [Slave Labor Plantation]","[Gold] cost of purchasing [Slave] units [+900]%",
-	"[+10]% [Science] [in all cities]","[+10]% [Gold] [in all cities]"], 
+		"uniqueName": "Désindustrialisation et diplomatie de la SdN armée",
+	    "uniques": ["Anglo",
+		"[+2 Gold] from [Mill] tiles [in your cities]", "[+2 Gold] from [Ranch] tiles [in your cities]", "[+2 Gold] from [Slave Labor Plantation] tiles [in your cities]", "[-33]% Production when constructing [all] buildings [in your cities]", "[+100]% maintenance costs", "[-10]% XP gained from combat", "Gifts of Gold to City-States generate [+33]% more Influence", "Allied City-States will occasionally gift Great People", "Science gained from research agreements [+100]%"], 
 		"cities": ["Washington D.C.","New York","Philadelphia","Baltimore","Chicago","Cincinnati","Cleveland","Detroit","Buffalo","Pittsburgh","St. Louis","Milwaukee","Providence","Hartford","Albany","Springfield","Indianapolis","Columbus","Louisville"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
