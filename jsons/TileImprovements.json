@@ -335,6 +335,14 @@
 		"science": 8,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
+		{
+		"name": "Palais du Droit",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 4,
+		"culture": 3,
+		"gold": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
        	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
