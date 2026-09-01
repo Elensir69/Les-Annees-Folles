@@ -6,6 +6,12 @@
 		"color": [0,0,255]
 	},
 	{
+		"name":"Judge",
+		"culture":2,
+		"greatPersonPoints": {"Great Judge":3},
+		"color": [255,255,255]
+	},
+	{
 		"name":"Merchant",
 		"gold":3,
 		"greatPersonPoints": {"Great Merchant":3},
