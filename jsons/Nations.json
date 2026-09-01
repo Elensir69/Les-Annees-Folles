@@ -3082,8 +3082,8 @@
 		"innerColor": [158, 14, 64],
 		"uniqueName": "République du Droit",
 		"uniques": ["Slavic",
-		"[+20]% Production when constructing [Light Cavalry] units [in all cities]","[+1 Gold] from every [Mill]","[+1 Gold] from every [Geese]"],
-		"cities": ["Warsaw","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
+		"[+5 Food] from [Mill] tiles [in your cities]","[+100]% Yield from every [Coal]","[+25]% Production when constructing [Air] units [in your cities]", "[+4 Food] from each Trade Route", "New [Military] units start with [50] XP [in your cities]"],
+		"cities": ["Krakow", "Warsaw","Prague", "Bratislava", "Lwow", "Riga", "Vilnius","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
 		"name": "Greece",
