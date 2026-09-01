@@ -2125,7 +2125,7 @@
 		"science": 3,
 		"culture": 3,
 		"hurryCostModifier": 50,
-		"uniques": ["[+1 Production] from every specialist [in this city]", "[+1 Happiness] per [32] population [in this city]"],
+		"uniques": ["[+1 Production] from every specialist [in this city]", "[+1 Happiness] per [3] population [in this city]"],
 		"requiredTech": "Rifling"
 	},
         {
