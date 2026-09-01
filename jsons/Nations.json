@@ -3060,15 +3060,15 @@
 		"cities": ["Tashkent","Samarkand","Bukhara","Nukus","Fergana","Qarshi","Kokand","Margilan","Termez","Jizzakh","Angren","Chirchiq","Navoiy","Urgench","Shahrisabz"]
 	},
 {
-		"name": "Poland",
-		"leaderName": "Count Andrzej Zamoyski",
-		"adjective": ["Polish"],
-		"startBias": ["Mountain"],
+		"name": "Federacja Zachodnich Slovano",
+		"leaderName": "Conseiller Fédéral Masaryk",
+		"adjective": ["Zapadoslave"],
+		"startBias": ["River"],
 		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
-		"declaringWar": "For the good of The Empire i must declare war!",
+		"declaringWar": "For the good of The Federation i must declare war!",
 		"attacked": "You are making a big mistake.",
 		"defeated": "Will this be my last goodbye to you?.",
 		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
@@ -3079,8 +3079,8 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
 		"outerColor": [255, 255, 255],
-		"innerColor": [158, 11, 11],
-		"uniqueName": "Eternal Commonwealth",
+		"innerColor": [158, 14, 64],
+		"uniqueName": "République du Droit",
 		"uniques": ["Slavic",
 		"[+20]% Production when constructing [Light Cavalry] units [in all cities]","[+1 Gold] from every [Mill]","[+1 Gold] from every [Geese]"],
 		"cities": ["Warsaw","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
