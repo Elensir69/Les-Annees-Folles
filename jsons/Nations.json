@@ -3082,7 +3082,7 @@
 		"innerColor": [158, 14, 64],
 		"uniqueName": "République du Droit",
 		"uniques": ["Slavic",
-		"[+5 Food] from [Mill] tiles [in your cities]","[+100]% Yield from every [Coal]","[+25]% Production when constructing [Air] units [in your cities]", "[+4 Food] from each Trade Route", "New [Military] units start with [50] XP [in your cities]"],
+		"[+5 Food] from [Mill] tiles [in your cities]","[+100]% Yield from every [Coal]","[+25]% Production when constructing [Air] units [in your cities]", "[+4 Food] from each Trade Route", "New [Military] units start with [50] XP [in your cities]", "May not annex cities", "May buy items in puppet cities"],
 		"cities": ["Krakow", "Warsaw","Prague", "Bratislava", "Lwow", "Riga", "Vilnius","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
