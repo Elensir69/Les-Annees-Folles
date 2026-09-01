@@ -1,13 +1,5 @@
 [
 	{
-		"name": "Courthouse",
-		"maintenance": 4,
-		"hurryCostModifier": 50,
-		"uniques": ["Removes extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "Rifling"
-	},
-	{
   "name": "Australian Aboriginal Embassy",
   "specialistSlots":{"Jukurrpa":1},
   "maintenance": 0,
@@ -3191,7 +3183,7 @@
 		"requiredTech": "Hunting Pets"
 	},
 {
-		"name": "",
+		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
