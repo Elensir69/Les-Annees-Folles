@@ -2545,6 +2545,21 @@
 		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+	        {
+		"name": "Vz. 20 Blesk",
+        "upgradesTo": "Advanced Tank",
+		"uniqueTo": "Federacja Zachodnich Slovano",
+		"replaces": "Tank",
+		"unitType": "Armored",
+		"movement": 7,
+		"strength": 70,
+		"cost": 390,
+		"requiredTech": "Combined Arms",
+                "obsoleteTech": "Post-Conflict Militarization",
+		"requiredResource": "Oil",
+		"uniques": ["[+50]% Strength <when fighting in [All Road] tiles>", "Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
         {
 		"name": "Sidewinder",
 		"unitType": "Artillery",
@@ -2716,6 +2731,24 @@
 		"cost": 325,
 		"requiredTech": "Flight",
                 "obsoleteTech": "Advanced Flight",
+		"requiredResource": "Oil",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Vz. 20 Sokol",
+		"unitType": "Fighter",
+	 	"uniqueTo": "Federacja Zachodnich Slovano",
+        "replaces": "Triplane",
+        "upgradesTo": "Fighter",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Flight",
+        "obsoleteTech": "Advanced Flight",
 		"requiredResource": "Oil",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -3708,7 +3741,7 @@
         },
         {
 		"name": "Winged Hussar",
-                "uniqueTo": "Poland",
+                "uniqueTo": "Federacja Zachodnich Slovano",
                 "replaces": "Hussar",
                 "upgradesTo": "Cavalry",
                 "obsoleteTech": "Replaceable Parts",
@@ -4332,7 +4365,7 @@
         },
         {
 		"name": "Polish Legion",
-                "uniqueTo": "Poland",
+                "uniqueTo": "Federacja Zachodnich Slovano",
 		"replaces": "Grenadier",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Replaceable Parts",
@@ -4343,6 +4376,20 @@
                 "uniques": ["[+60]% Strength <vs [Heavy Cavalry] units>","[+60]% Strength <vs [Artillery] units>","[+60]% Strength <vs [Archaic Infantry] units>","Never appears as a Barbarian unit"],
 		"cost": 200,
 		"attackSound": "shot"
+        },
+	    {
+		"name": "Camion-Canon Vz. 20A Kůň-75",
+                "uniqueTo": "Federacja Zachodnich Slovano",
+		"replaces": "Foot Artillery",
+        "obsoleteTech": "Combustion",
+		"unitType": "Artillery",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 30,
+		"cost": 185,
+		"requiredTech": "Artillery",
+		"uniques": ["[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
         },
         {
 		"name": "Rebel Raider",
