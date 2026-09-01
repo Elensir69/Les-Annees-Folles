@@ -1623,6 +1623,15 @@
 		"movement": 2
 	},
 	{
+		"name": "Great Judge",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable", "Add [Wheat] to this tile <by consuming this unit", "Add [Coal] to this tile <by consuming this unit","Add [Silver] to this tile <by consuming this unit"],
+		"movement": 2
+	},
+	{
 		"name": "Kaaba Reconstructor",
 		"unitType": "Civilian",
 		"uniques": [
