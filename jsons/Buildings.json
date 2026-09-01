@@ -1637,7 +1637,7 @@
 	{
 		"name": "Benge",
 		"uniqueTo": "Azande",
-        "replaces": "",
+        "replaces": "Courthouse",
 		"maintenance": 3,
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities","All newly-trained [Melee] units [in all cities] receive the [Abinza] promotion"],
@@ -3496,7 +3496,7 @@
 	{
 		"name": "Malaya Majlis",
 		"uniqueTo": "British Malaya",
-        "replaces": "",
+        "replaces": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["[+1 Happiness] <in cities connected to the capital>","Removes extra unhappiness from annexed cities"],
