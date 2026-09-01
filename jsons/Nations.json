@@ -32,6 +32,32 @@
 	"spyNames": ["Saki"]
 },
 {
+	"name": "Azerbaïdjan",
+	"leaderName": "Ades",
+	"adjective": ["Azéri"],
+	"startBias":["Grassland","Moutain"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"innerColor": [0, 204, 203],
+    "outerColor": [20, 148, 20],
+	"uniqueName": "Armée des Pelles",
+	"uniques": ["ME",
+	"[-50]% construction time for [all] improvements", "[+2 Food] from [Trench] tiles [in your cities]", "[+2 Gold] from [Fort] tiles [in your cities]", "[+2 Production] from [Citadel] tiles [in your cities]", "Great General provides double combat bonus", "Rebel units may spawn"],
+	"cities": ["Bakou", "Tabriz" ,"Sumkayit", "Gandja", "Mingachevir", "Nakhitchevan", "Lankaran"],
+	"spyNames": ["Ades TG", "Adous", "Adesou", "Ades sans le sous"]
+},
+{
 	"name": "Boston",
 	"leaderName": "Samuel Adams",
 	"adjective": ["Boston"],
