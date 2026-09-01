@@ -1637,7 +1637,7 @@
 	{
 		"name": "Benge",
 		"uniqueTo": "Azande",
-        "replaces": "Courthouse",
+        "replaces": "",
 		"maintenance": 3,
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities","All newly-trained [Melee] units [in all cities] receive the [Abinza] promotion"],
@@ -2114,6 +2114,18 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
+	},
+		{
+		"name": "Cour Judicialiste",
+		"uniqueTo": "Federacja Zachodnich Slovano",
+                "replaces": "Courthouse",
+		"maintenance": 1,
+	    "specialistSlots": {"Judge": 2},
+		"science": 3,
+		"culture": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Production] from every specialist [in this city]", "[+1 Happiness] per [32] population [in this city]"],
 		"requiredTech": "Rifling"
 	},
         {
@@ -3171,7 +3183,7 @@
 		"requiredTech": "Hunting Pets"
 	},
 {
-		"name": "Courthouse",
+		"name": "",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
@@ -3484,7 +3496,7 @@
 	{
 		"name": "Malaya Majlis",
 		"uniqueTo": "British Malaya",
-        "replaces": "Courthouse",
+        "replaces": "",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["[+1 Happiness] <in cities connected to the capital>","Removes extra unhappiness from annexed cities"],
