@@ -3104,16 +3104,17 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [255, 255, 255],
-		"innerColor": [158, 14, 64],
+		"outerColor": [158, 14, 64],
+		"innerColor": [255, 255, 255],
 		"uniqueName": "République du Droit",
-		"uniques": ["Slavic",
-		"[+5 Food] from [Mill] tiles [in your cities]","[+100]% Yield from every [Coal]","[+25]% Production when constructing [Air] units [in your cities]", "[+4 Food] from each Trade Route", "New [Military] units start with [50] XP [in your cities]", "May not annex cities", "May buy items in puppet cities"],
+		"uniques": ["Slavic", "[+2 Food] from [improved] tiles [in your cities]",
+		"[+100]% [Coal] resource production","[+25]% Production when constructing [Air] units [in your cities]", "[+4 Food] from each Trade Route", "New [Military] units start with [50] XP [in your cities]",
+		"May not annex cities", "May buy items in puppet cities", "When defeating a [Water] unit, earn [0] Gold and recruit it"],
 		"cities": ["Krakow", "Warsaw","Prague", "Bratislava", "Lwow", "Riga", "Vilnius","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
 		"name": "Greece",
-		"leaderName": "King Otto",
+		"leaderName": "E. Venizélos",
 		"adjective": ["Greek"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Supremacy",
@@ -4441,6 +4442,37 @@
 			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
     },
+		{
+		"name": "RSSR",
+		"leaderName": "Lénine",
+		"adjective": ["Soviétiques"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Supremacy",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [207, 209, 232],
+		"innerColor": [32, 57, 87],
+		"favoredReligion": "Orthodox",
+		"uniqueName": "Military Horde",
+		"uniques": ["Slavic",
+		"[+100]% Yield from pillaging tiles","Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Free Social Policy <upon conquering a city>",
+		"[+100]% Faith cost of generating Great Prophet equivalents"],
+		"cities": ["Petrograd","Moscou","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
+    },
     {
 		"name": "Finland",
 		"leaderName": "Johan Ludvig Runeberg",
@@ -4467,7 +4499,7 @@
 		"[+5 Culture] [in all cities] <with [3] to [4] neighboring [{unimproved} {Pines}] tiles>",
 		"[+8 Culture] [in all cities] <with [5] to [7] neighboring [{unimproved} {Pines}] tiles>",
 		"[+1 Production, +1 Gold] from every [Deer]",
-		"[+1 Culture, +1 Happiness] from every [Log Cabin]"],
+		"[+1 Culture, +1 Happiness] from every [Log Cabin]", "[+33]% Strength <in [your] tiles>", "[+50]% Strength <when fighting units from a Civilization with more Cities than you>", "[+50]% unhappiness from the number of cities <when at war>"],
 		"cities": ["Helsinki", "Espoo","Tampere","Vantaa","Oulu","Turku","Jyvaskyla","Lahti","Kuopio","Pori","Joensuu","Lappeenranta","Hameenlinna","Vaasa"],
         "spyNames": ["Saki"]
     },
